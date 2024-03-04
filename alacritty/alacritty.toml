@@ -1,0 +1,77 @@
+# $HOME/.config/alacritty/alacritty.toml
+# by Rito Ghosh 2023-10-06
+
+# Alacritty now uses TOML formatting for its config files.
+# This is a simple example.
+
+# There are the specification here: https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
+# It is not obvious how it translates to TOML. But it is extremely straightforward.
+
+# example: WINDOW, COLORS, etc. are tables, and should be represented as [window], [colors], respectively.
+# specifics of variables go under them. e.g.- look under "dynamic_padding" under-
+# https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd#window
+# write `dynamic_padding = true` (without backticks -`) under the table [window]
+# for variables with multiple values, use "dotted keys". Like setting `padding.x = 5` under [window].
+# This is simple. If not clear, do several trials and errors.
+
+# Below is my initial set-up. The TOML homepage (https://toml.io/en/v1.0.0) was very helpful in figuring this out. 
+# I put the file alacritty.toml in $HOME/.config/alacritty. However it can be kept anywhere among the places mentioned in
+# https://github.com/alacritty/alacritty/tree/master#configuration
+
+[window]
+
+opacity = 0.9
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Light" # "Dark"
+
+startup_mode = "Fullscreen"
+dynamic_title = true
+
+[font]
+
+normal.family = "JetbrainsMono Nerd Font"
+bold.family = "JetbrainsMono Nerd Font"
+italic.family = "JetbrainsMono Nerd Font"
+bold_italic.family = "JetbrainsMono Nerd Font"
+size = 11.50
+builtin_box_drawing = false 
+
+offset = { x = 0, y = 0 }
+
+# Tip: for inspiration, look for values in the source code files of your favorite VS Code themes, and use the color picker in
+# Google to test colors before setting a value, or simply using an editor such as VS Code where colors are displayed in a 
+# small box when a HEX is detected by the editor.
+
+# Colours (Monokai Charcoal)
+
+# Default Colours
+[colors.primary]
+background = '#000000'
+# foreground = '#FFFFFF'
+foreground = '#ffff00'
+
+# Normal Colours
+[colors.normal]
+black   = '#1a1a1a'
+red     = '#f4005f'
+green   = '#98e024'
+yellow  = '#fa8419'
+# blue    = '#9d65ff'
+blue = '#ff00ff'
+magenta = '#f4005f'
+cyan    = '#58d1eb'
+white   = '#c4c5b5'
+# Bright Colours
+[colors.bright]
+black   = '#625e4c'
+red     = '#f4005f'
+green   = '#98e024'
+yellow  = '#e0d561'
+blue    = '#9d65ff'
+magenta = '#f4005f'
+cyan    = '#58d1eb'
+white   = '#f6f6ef'

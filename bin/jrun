@@ -1,0 +1,10 @@
+#!/bin/bash
+file="$1"
+if [ -f $file ]
+then
+  javac $file;
+  java solution;
+
+else
+    echo "File does not exist"
+fi

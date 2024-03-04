@@ -1,0 +1,11 @@
+#!/bin/bash
+file="$1"
+if [ -f $file ]
+then
+  g++ $file;
+  ./a.out < input.txt;
+
+else
+    echo "File does not exist"
+fi
+
