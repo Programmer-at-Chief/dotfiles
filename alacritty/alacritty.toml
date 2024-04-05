@@ -37,11 +37,23 @@ normal.family = "JetbrainsMono Nerd Font"
 bold.family = "JetbrainsMono Nerd Font"
 italic.family = "JetbrainsMono Nerd Font"
 bold_italic.family = "JetbrainsMono Nerd Font"
-size = 11.50
+# size = 11.50
+size = 13
 builtin_box_drawing = false 
 
 offset = { x = 0, y = 0 }
 
+[cursor]
+
+style = { shape = "Block", blinking = "Never" }
+vi_mode_style = {shape = "Beam",blinking= "Never"}
+
+[keyboard]
+
+bindings = [
+{ key = "c", mods = "Control|Alt", action = "Copy" },
+{ key = "v", mods = "Control|Alt", chars = "Paste" },
+]
 # Tip: for inspiration, look for values in the source code files of your favorite VS Code themes, and use the color picker in
 # Google to test colors before setting a value, or simply using an editor such as VS Code where colors are displayed in a 
 # small box when a HEX is detected by the editor.
