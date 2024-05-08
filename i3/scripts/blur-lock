@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PICTURE=/tmp/i3lock.png
+PICTURE=/home/aman/.wallpapers/your\ name.png
 SCREENSHOT="scrot -z $PICTURE"
 
 BLUR="5x4"

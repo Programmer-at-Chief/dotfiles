@@ -3,7 +3,7 @@
 
 
 case "$1" in
-    *.png|*.jpg|*.jpeg|*.mkv|*.mp4|*.m4v) mediainfo "$1";;
+    *.png|*.jpg|*.jpeg|*.mkv|*.mp4|*.m4v) exiv2 "$1";;
     # *.png|*.jpg|*.jpeg) icat "$1";;
     *.md) /usr/bin/bat --style plain "$1";;
     *.sh|*.) /usr/bin/bat --style plain "$1";;
@@ -17,6 +17,7 @@ case "$1" in
     *) /usr/bin/bat --style plain "$1";; 
     *.html|*.xml) /usr/bin/bat --style plain "$1";;
     *.zsh*|*.bash*|*.git*) /usr/bin/bat --style plain "$1";;
+    *.pdf|*.PDF) /usr/bin/impressive "$1";;
     *) "$1" ;;
 esac
 

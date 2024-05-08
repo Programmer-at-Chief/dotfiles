@@ -1,0 +1,60 @@
+% egrep -v '^#' ~/.config/ncmpcpp/config
+mpd_music_dir = "~/Music/"
+
+[visualizer]
+visualizer_in_stereo = "yes"
+# visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_data_source= "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+# visualizer_sync_interval = "30"
+# supported visualizer types : spectrum,ellipse,wave_filled analyzer,wave form
+visualizer_type = "spectrum"
+visualizer_color = "red"
+
+# visualizer's look (string has to be exactly 2 characters long: first one is for wave and whereas second for frequency spectrum, wave_filled and ellipse).
+visualizer_look = "●┃"
+#visualizer_look = "◆▋"
+
+[statusbar]
+progressbar_look = "─╼ "
+progressbar_color = "black"
+statusbar_visibility = "no"
+statusbar_color = "default"
+song_status_format = "{{%a{ - %t}}|{ - %f}{ - %b{ (%y)}}}"
+
+message_delay_time = "3"
+browser_display_mode = "columns"
+search_engine_display_mode = "columns"
+autocenter_mode = "yes"
+centered_cursor = "yes"
+user_interface = "alternative"
+follow_now_playing_lyrics = "yes"
+locked_screen_width_part = "60"
+display_bitrate = "yes"
+external_editor = "nvim"
+use_console_editor = "yes"
+header_window_color = "cyan"
+volume_color = "red"
+state_line_color = "yellow"
+state_flags_color = "red"
+mpd_host = "127.1.0.1"
+mpd_port = "6600"
+mouse_list_scroll_whole_page = "yes"
+lines_scrolled = "1"
+enable_window_title = "yes"
+song_columns_list_format = "(25)[cyan]{a} (40)[]{f} (30)[red]{b} (7f)[green]{l}"
+
+
+# song change notification
+execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
+
+[playlist]
+#playlist_display_mode = "classic"
+song_list_format = "{{%a - %t}|{%f}}{$R%l}"
+now_playing_prefix = "$b$5"
+now_playing_suffix = "$/b$9"
+# ask_before_clearing_main_playlist = "yes"
+playlist_editor_display_mode = "columns"
+playlist_display_mode = "columns"
+playlist_shorten_total_times = "yes"
+allow_for_physical_item_deletion = "yes"

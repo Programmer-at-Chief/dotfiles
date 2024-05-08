@@ -1,0 +1,8 @@
+#!/bin/bash
+file="$1"
+if [ -f $file ]
+then
+  /usr/bin/python3 $file < input.txt
+else
+    echo "File does not exist"
+fi

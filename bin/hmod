@@ -6,5 +6,5 @@
 # Date Modified : 22 March ,2024
 
 cp ~/.bash_history ~/.bash_history.backup
-cat ~/.bash_history.backup | grep -v -e "cd" -e "ls" -e "exit" -e "man" -e "bat" -e "clear" -e "gcc" -e "a.out" -e "lf" -e "ping" -e "top"> .bash_history
+cat ~/.bash_history.backup | grep -v -e "cd" -e "ls" -e "exit" -e "man" -e "bat" -e "clear" -e "gcc" -e "a.out" -e "lf" -e "ping" -e "top" -e "ssh" -e "nmcli" > ~/.bash_history
 rm ~/.bash_history.backup

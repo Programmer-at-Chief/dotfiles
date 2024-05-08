@@ -172,20 +172,21 @@ map md mkdir
 
 
 # Movement
-map gd cd ~/Desktop2
+map gd cd ~/Desktop
 map gD cd ~/Downloads
 map gc cd ~/.config
-map gC cd ~/Desktop2/C\ Programming
+map gC cd ~/Desktop/C\ Programming
 map gh cd ~/
 map gS cd ~/Sync
 map gl cd ~/Downloads/xdman/
-map g+ cd ~/Desktop2/Cpp\ Programming
+map g+ cd ~/Desktop/Cpp\ Programming
 map gH cd /media/Data_Drive/
 map gw cd ~/.wallpapers/
-map gj cd ~/Desktop2/Java/
+map gj cd ~/Desktop/Java/
 map gn cd ~/Notes/
 map gh cd ~/BlackCTF/
-map gf cd ~/Desktop2/Forces/
+map gf cd ~/Desktop/Forces/
+map gp cd ~/Desktop/Python/
 
 set drawbox
 set relativenumber
