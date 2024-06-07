@@ -1245,3 +1245,199 @@ May 05 21:51 : player: played "nordic_home.opus"
 May 05 22:54 : player: played "Sleep_music.opus"
 May 06 01:21 : player: played "Sounds_of_Rain.opus"
 May 07 04:43 : player: played "nordic_home.opus"
+May 08 21:17 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 08 21:17 : ffmpeg/aac: channel element 1.0 is not allocated
+May 08 21:17 : update: added /Baarishein - Anuv Jain.m4a
+May 08 21:17 : update: added /Lofi study 🍃 Music that makes u more inspired to study & work - Chill beats ~ study ⧸ stress relief [FxJ3zPUU6Y4].opus
+May 08 21:17 : update: added /Exam Study Music - 40Hz Gamma Binaural Beats, Brainwave Music for Improved Memory [qQzf-xzZO7M].opus
+May 08 21:17 : update: added /4-HOUR STUDY WITH ME🌦️ ⧸ calm piano ⧸ A Rainy Day in Shinjuku, Tokyo ⧸ with countdown+alarm [DXT9dF-WK-I].opus
+May 08 21:19 : player: played "4-HOUR STUDY WITH ME🌦️ ⧸ calm piano ⧸ A Rainy Day in Shinjuku, Tokyo ⧸ with countdown+alarm [DXT9dF-WK-I].opus"
+May 09 09:57 : player: played "4-HOUR STUDY WITH ME🌦️ ⧸ calm piano ⧸ A Rainy Day in Shinjuku, Tokyo ⧸ with countdown+alarm [DXT9dF-WK-I].opus"
+May 10 20:30 : player: played "4-HOUR STUDY WITH ME🌦️ ⧸ calm piano ⧸ A Rainy Day in Shinjuku, Tokyo ⧸ with countdown+alarm [DXT9dF-WK-I].opus"
+May 11 17:52 : player: played "4-HOUR STUDY WITH ME🌦️ ⧸ calm piano ⧸ A Rainy Day in Shinjuku, Tokyo ⧸ with countdown+alarm [DXT9dF-WK-I].opus"
+May 12 16:47 : player: played "Sounds_of_Rain.opus"
+May 13 12:53 : player: played "nordic_home.opus"
+May 13 15:43 : player: played "Sounds_of_Rain.opus"
+May 13 23:21 : player: played "Sounds_of_Rain.opus"
+May 15 00:02 : update: added /Baarishein (Acoustic) (Anuv Jain ).opus
+May 15 00:02 : update: added /Alag Aasmaan (Anuv Jain ).opus
+May 15 00:02 : update: added /Meri Baaton Mein Tu (Anuv Jain ).opus
+May 15 00:02 : update: added /Baarishein (Anuv Jain ).opus
+May 15 00:02 : update: added /Mishri (Anuv Jain ).opus
+May 15 00:02 : update: added /Husn (Anuv Jain ).opus
+May 15 00:02 : update: added /Mazaak (Anuv Jain ).opus
+May 15 00:02 : update: added /Gul (Anuv Jain ).opus
+May 15 00:02 : update: added /Riha (Anuv Jain ).opus
+May 15 00:02 : update: added /Maula (Anuv Jain ).opus
+May 15 00:02 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 00:02 : update: added /Agar Tum Saath Ho.m4a
+May 15 00:02 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 00:02 : update: added /Sawaar Loon.m4a
+May 15 00:06 : player: played "Lofi study 🍃 Music that makes u more inspired to study & work - Chill beats ~ study ⧸ stress relief [FxJ3zPUU6Y4].opus"
+May 15 00:07 : update: removing Baarishein (Acoustic) (Anuv Jain ).opus
+May 15 00:07 : update: removing Baarishein - Anuv Jain.m4a
+May 15 00:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 00:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 00:07 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 00:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 00:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 00:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 00:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 00:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 00:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 00:07 : player: played "Riha (Anuv Jain ).opus"
+May 15 00:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 00:07 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 00:11 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 00:11 : player: played "Sawaar Loon.m4a"
+May 15 00:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 00:17 : player: played "Agar Tum Saath Ho.m4a"
+May 15 00:20 : player: played "Husn (Anuv Jain ).opus"
+May 15 14:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 14:28 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 15 14:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 14:28 : player: played "Husn (Anuv Jain ).opus"
+May 15 14:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 14:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 15 14:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 14:31 : player: played "Mishri (Anuv Jain ).opus"
+May 15 14:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 15 14:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 14:35 : player: played "Alag Aasmaan (Anuv Jain ).opus"
+May 15 14:39 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 15 14:39 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 14:39 : player: played "Riha (Anuv Jain ).opus"
+May 15 14:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 14:44 : player: played "Sawaar Loon.m4a"
+May 15 14:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 15 14:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 14:47 : player: played "Mazaak (Anuv Jain ).opus"
+May 15 14:50 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 15 14:50 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 14:50 : player: played "Baarishein (Anuv Jain ).opus"
+May 15 14:56 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 14:56 : player: played "Agar Tum Saath Ho.m4a"
+May 15 15:00 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 15 15:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 15 15:00 : player: played "Gul (Anuv Jain ).opus"
+May 15 15:03 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 15 15:03 : player: played "Meri Baaton Mein Tu (Anuv Jain ).opus"
+May 16 22:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 16 22:17 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 16 22:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 16 22:17 : player: played "Mishri (Anuv Jain ).opus"
+May 16 22:20 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 16 22:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 16 22:21 : player: played "Alag Aasmaan (Anuv Jain ).opus"
+May 16 22:24 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 16 22:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 16 22:24 : player: played "Meri Baaton Mein Tu (Anuv Jain ).opus"
+May 16 22:29 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 16 22:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 16 22:29 : player: played "Riha (Anuv Jain ).opus"
+May 16 22:32 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 16 22:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 16 22:32 : player: played "Gul (Anuv Jain ).opus"
+May 16 22:36 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 16 22:37 : player: played "Sawaar Loon.m4a"
+May 16 22:42 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 16 22:42 : player: played "Agar Tum Saath Ho.m4a"
+May 16 22:46 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 16 22:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 16 22:46 : player: played "Maula (Anuv Jain ).opus"
+May 16 22:49 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 16 22:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 16 22:50 : player: played "Baarishein (Anuv Jain ).opus"
+May 16 22:53 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 16 22:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 16 22:53 : player: played "Husn (Anuv Jain ).opus"
+May 16 22:56 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 16 22:57 : player: played "Mazaak (Anuv Jain ).opus"
+May 16 23:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 16 23:50 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 16 23:50 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 16 23:50 : player: played "Mishri (Anuv Jain ).opus"
+May 16 23:56 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 16 23:56 : player: played "Agar Tum Saath Ho.m4a"
+May 16 23:59 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 16 23:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 00:00 : player: played "Maula (Anuv Jain ).opus"
+May 17 00:03 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 00:03 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 00:03 : player: played "Mazaak (Anuv Jain ).opus"
+May 17 00:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 00:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 17 00:07 : player: played "Alag Aasmaan (Anuv Jain ).opus"
+May 17 00:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 00:11 : player: played "Sawaar Loon.m4a"
+May 17 00:14 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 00:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 00:14 : player: played "Baarishein (Anuv Jain ).opus"
+May 17 00:18 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 00:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 00:18 : player: played "Gul (Anuv Jain ).opus"
+May 17 00:22 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 00:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 00:23 : player: played "Riha (Anuv Jain ).opus"
+May 17 00:26 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 00:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 00:26 : player: played "Husn (Anuv Jain ).opus"
+May 17 00:29 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 00:30 : player: played "Meri Baaton Mein Tu (Anuv Jain ).opus"
+May 17 22:22 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 17 22:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 22:28 : player: played "Agar Tum Saath Ho.m4a"
+May 17 22:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 22:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 22:31 : player: played "Mazaak (Anuv Jain ).opus"
+May 17 22:38 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 22:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 22:38 : player: played "Alag Aasmaan (Anuv Jain ).opus"
+May 17 22:43 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 22:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 22:43 : player: played "Riha (Anuv Jain ).opus"
+May 17 22:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 22:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 22:47 : player: played "Maula (Anuv Jain ).opus"
+May 17 22:50 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 22:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 22:50 : player: played "Mishri (Anuv Jain ).opus"
+May 17 22:53 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 22:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 17 22:53 : player: played "Meri Baaton Mein Tu (Anuv Jain ).opus"
+May 17 22:57 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 17 22:57 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 17 22:57 : player: played "Husn (Anuv Jain ).opus"
+May 18 00:02 : player: played "Sawaar Loon.m4a"
+May 18 20:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 18 20:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 18 20:49 : player: played "Sawaar Loon.m4a"
+May 18 21:43 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 18 21:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 18 21:43 : player: played "Husn (Anuv Jain ).opus"
+May 18 21:46 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 18 21:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 18 21:46 : player: played "Meri Baaton Mein Tu (Anuv Jain ).opus"
+May 18 21:51 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 18 21:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 18 21:51 : player: played "Riha (Anuv Jain ).opus"
+May 18 21:55 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 18 21:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 18 21:55 : player: played "Maula (Anuv Jain ).opus"
+May 18 21:58 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 18 21:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 18 21:58 : player: played "Gul (Anuv Jain ).opus"
+May 18 22:02 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 18 22:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 18 22:02 : player: played "Mazaak (Anuv Jain ).opus"
+May 18 22:05 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 18 22:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 18 22:05 : player: played "Alag Aasmaan (Anuv Jain ).opus"
+May 18 22:05 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 18 22:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+May 18 22:11 : player: played "Agar Tum Saath Ho.m4a"
+May 18 22:14 : ffmpeg/opus: Could not update timestamps for discarded samples.
+May 18 22:14 : player: played "Baarishein (Anuv Jain ).opus"
+May 19 08:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 19 10:42 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 19 22:47 : player: played "Agar Tum Saath Ho.m4a"

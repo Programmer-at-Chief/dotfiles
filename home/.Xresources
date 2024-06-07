@@ -1,0 +1,157 @@
+! Xcursor.theme: Qogir-dark
+Xcursor.theme: Oreo Spark Purple Cursors
+Xcursor.size: 16
+Xft.dpi: 125
+
+!URxvt------------------------
+URxvt.font: xft:Iosevka Nerd Font Mono:style=Regular:size=16,xft:JetBrainsMono NF:style=Regular:size=16
+urxvt*termName: 		rxvt
+urxvt*scrollBar: 		false
+urxvt*matcher.button: 		1
+urxvt.transparent: 		true
+urxvt.shading:			20
+urxvt*depth: 			32
+urxvt*background: 		rgba:4100/4800/5800/c800
+urxvt.boldFont:
+Xft*dpi: 		100	
+Xft*antialias: 			true
+Xft*hinting: 			true
+Xft*hintstyle: 			hintfull
+Xft*rgba: 			rgb
+! URxvt*geometry: 		85x20
+*internalBorder: 	 5	
+URxvt*fading: 			0
+URxvt*tintColor: 		#ffffff
+URxvt*shading: 			0
+URxvt*inheritPixmap: 		False
+
+!! Common Keybinds for Navigations
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.keysym.Control-Up: \033[1;5A
+URxvt.keysym.Control-Down: \033[1;5B
+URxvt.keysym.Control-Right: \033[1;5C
+URxvt.keysym.Control-Left: \033[1;5D
+
+!! Copy Paste & Other Extensions
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.urlLauncher: firefox
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
+
+!! | - We define the background color of the tabs
+URxvt.tabbed.tab-bg: # 000000
+!! | - We define the frontal color of the eyelashes
+URxvt.tabbed.tab-fg: # 699000
+!! | - We define the background color of the tab separators
+URxvt.tabbed.tabbar-bg: # 000000
+!! | - We define the front color of the tab separators
+URxvt.tabbed.tabbar-fg: # 4E9A06
+!
+! *background:			#2f343f
+! *foreground: 			#d7d7d7
+! *cursorColor: 			#c7c7c7
+! *highlightTextColor: 		#383c4a
+! *highlightColor: 		#c1ddff
+! ! black
+! *.color0:       		#383c4a
+! *.color8:       		#383c4a
+! ! red
+! *.color1:       		#e28d9d
+! *.color9:       		#e28d9d
+! ! green
+! *.color2:       		#bfd888
+! *.color10:      		#bfd888
+! ! yellow
+! *.color3:       		#df936c
+! *.color11:      		#df936c
+! ! blue
+! *.color4:       		#5294e2
+! *.color12:      		#5294e2
+! ! magenta
+! *.color5:       		#f74771
+! *.color13:      		#f74771
+! ! cyan
+! *.color6:       		#7c818c
+! *.color14:      		#7c818c
+! ! white
+! *.color7:       		#d7d7d7
+! *.color15:      		#d7d7d7
+! :
+!
+
+!! new
+! *.background:           #000000
+! *.foreground:           #666699
+! *.cursorColor:          #6699CC
+! *.colorBD:              #CCCCFF
+!
+! !Visiblue
+! *.color0:               #333366
+! *.color8:               #333399
+!
+! *.color1:               #6666CC
+! *.color9:               #9999FF
+!
+! *.color2:               #0099CC
+! *.color10:              #00CCFF
+!
+! *.color3:               #3366CC
+! *.color11:              #6699FF
+!
+! *.color4:               #006699
+! *.color12:              #0099CC
+!
+! *.color5:               #0066FF
+! *.color13:              #0099FF
+!
+! *.color6:               #669999
+! *.color14:              #66CCCC
+!
+! *.color7:               #99CCCC
+! *.color15:              #CCFFFF
+
+! special
+*.background: #1E1E2E
+*.foreground: #CDD6F4
+*.cursorColor: #F5E0DC
+
+! black
+*.color0: #45475A
+*.color8: #585B70
+
+! red
+*.color1: #F38BA8
+*.color9: #F38BA8
+
+! green
+*.color2: #A6E3A1
+*.color10: #A6E3A1
+
+! yellow
+*.color3: #F9E2AF
+*.color11: #F9E2AF
+
+! blue
+*.color4: #89B4FA
+*.color12: #89B4FA
+
+! magenta
+*.color5: #F5C2E7
+*.color13: #F5C2E7
+
+! cyan
+*.color6: #94E2D5
+*.color14: #94E2D5
+
+! white
+*.color7: #BAC2DE
+*.color15: #A6ADC8

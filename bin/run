@@ -1,0 +1,25 @@
+#!/bin/bash
+file="$1"
+if [[ $file == *.cpp ]]
+then
+  g++ $file;
+  ./a.out;
+else 
+  if [[ $file == *.c ]]
+  then 
+    gcc $file;
+    ./a.out;
+  else
+    if [[ $file == *.java ]]
+    then 
+      javac $file;
+      java solution;
+    else
+      if [[ $file == *.js ]]
+      then 
+        node $file;
+      fi
+    fi
+  fi
+fi
+

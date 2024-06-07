@@ -4,26 +4,26 @@
 # Alacritty now uses TOML formatting for its config files.
 # This is a simple example.
 
-# There are the specification here: https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
+# There are the specification here= https=//github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
 # It is not obvious how it translates to TOML. But it is extremely straightforward.
 
-# example: WINDOW, COLORS, etc. are tables, and should be represented as [window], [colors], respectively.
+# example= WINDOW, COLORS, etc. are tables, and should be represented as [window], [colors], respectively.
 # specifics of variables go under them. e.g.- look under "dynamic_padding" under-
-# https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd#window
+# https=//github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd#window
 # write `dynamic_padding = true` (without backticks -`) under the table [window]
 # for variables with multiple values, use "dotted keys". Like setting `padding.x = 5` under [window].
 # This is simple. If not clear, do several trials and errors.
 
-# Below is my initial set-up. The TOML homepage (https://toml.io/en/v1.0.0) was very helpful in figuring this out. 
+# Below is my initial set-up. The TOML homepage (https=//toml.io/en/v1.0.0) was very helpful in figuring this out. 
 # I put the file alacritty.toml in $HOME/.config/alacritty. However it can be kept anywhere among the places mentioned in
-# https://github.com/alacritty/alacritty/tree/master#configuration
+# https=//github.com/alacritty/alacritty/tree/master#configuration
 
 [window]
 
-opacity = 0.9
+opacity = 0.8
 
-padding.x = 10
-padding.y = 10
+padding.x = 20
+padding.y = 20
 
 decorations = "Full"
 decorations_theme_variant = "Light" # "Dark"
@@ -45,8 +45,8 @@ offset = { x = 0, y = 0 }
 
 [cursor]
 
-style = { shape = "Block", blinking = "Never" }
-vi_mode_style = {shape = "Beam",blinking= "Never"}
+style = { shape = "Beam", blinking = "Never" }
+vi_mode_style = {shape = "Block",blinking= "Never"}
 
 [keyboard]
 
@@ -54,36 +54,153 @@ bindings = [
 { key = "c", mods = "Control|Alt", action = "Copy" },
 { key = "v", mods = "Control|Alt", action = "Paste" },
 ]
-# Tip: for inspiration, look for values in the source code files of your favorite VS Code themes, and use the color picker in
+# Tip= for inspiration, look for values in the source code files of your favorite VS Code themes, and use the color picker in
 # Google to test colors before setting a value, or simply using an editor such as VS Code where colors are displayed in a 
 # small box when a HEX is detected by the editor.
 
 # Colours (Monokai Charcoal)
 
 # Default Colours
-[colors.primary]
-background = '#000000'
+# [colors.primary]
+# background = '#000000'
 # foreground = '#FFFFFF'
-foreground = '#ffff00'
+# foreground = '#ffff00'
 
 # Normal Colours
-[colors.normal]
-black   = '#1a1a1a'
-red     = '#f4005f'
-green   = '#98e024'
-yellow  = '#fa8419'
+# [colors.normal]
+# black   = '#1a1a1a'
+# red     = '#f4005f'
+# green   = '#98e024'
+# yellow  = '#fa8419'
+# # blue    = '#9d65ff'
+# blue = '#ff00ff'
+# magenta = '#f4005f'
+# cyan    = '#58d1eb'
+# white   = '#c4c5b5'
+# # Bright Colours
+# [colors.bright]
+# black   = '#625e4c'
+# red     = '#f4005f'
+# green   = '#98e024'
+# yellow  = '#e0d561'
 # blue    = '#9d65ff'
-blue = '#ff00ff'
-magenta = '#f4005f'
-cyan    = '#58d1eb'
-white   = '#c4c5b5'
-# Bright Colours
-[colors.bright]
-black   = '#625e4c'
-red     = '#f4005f'
-green   = '#98e024'
-yellow  = '#e0d561'
-blue    = '#9d65ff'
-magenta = '#f4005f'
-cyan    = '#58d1eb'
-white   = '#f6f6ef'
+# magenta = '#f4005f'
+# cyan    = '#58d1eb'
+# white   = '#f6f6ef'
+
+
+# [colors]
+#
+# [colors.primary]
+# background= "#2e3440"
+# foreground= "#d8dee9"
+# dim_foreground= "#a5abb6"
+#
+# [colors.cursor]
+# text= "#2e3440"
+# cursor= "#d8dee9"
+#
+# [colors.vi_mode_cursor]
+# text= "#2e3440"
+# cursor= "#d8dee9"
+#
+# # [colors.selection]
+# # text= CellForeground
+# # background= "#4c566a"
+# #
+# # [colors.search]
+# # matches=
+# #   foreground= CellBackground
+# #   background= "#88c0d0"
+# # bar=
+# #   background= "#434c5e"
+# #   foreground= "#d8dee9"
+#
+# [colors.normal]
+# black= "#3b4252"
+# red= "#bf616a"
+# green= "#a3be8c"
+# yellow= "#ebcb8b"
+# blue= "#81a1c1"
+# magenta= "#b48ead"
+# cyan= "#88c0d0"
+# white= "#e5e9f0"
+#
+# [colors.bright]
+# black= "#4c566a"
+# red= "#bf616a"
+# green= "#a3be8c"
+# yellow= "#ebcb8b"
+# blue= "#81a1c1"
+# magenta= "#b48ead"
+# cyan= "#8fbcbb"
+# white= "#eceff4"
+#
+# [colors.dim]
+# black= "#373e4d"
+# red= "#94545d"
+# green= "#809575"
+# yellow= "#b29e75"
+# blue= "#68809a"
+# magenta= "#8c738c"
+# cyan= "#6d96a5"
+# white= "#aeb3bb"
+
+# [colors]
+# [colors.primary]
+# background= '#1a1b26'
+# foreground= '#a9b1d6'
+#     # Normal colors
+# [colors.normal]
+# black=   '#32344a'
+# red=     '#f7768e'
+# green=   '#9ece6a'
+# yellow=  '#e0af68'
+# blue=    '#7aa2f7'
+# magenta= '#ad8ee6'
+# cyan=    '#449dab'
+# white=   '#787c99'
+#
+#   # Bright colors
+# [colors.bright]
+# black=   '#444b6a'
+# red=     '#ff7a93'
+# green=   '#b9f27c'
+# yellow=  '#ff9e64'
+# blue=    '#7da6ff'
+# magenta= '#bb9af7'
+# cyan=    '#0db9d7'
+# white=   '#acb0d0'
+
+# tokyonight
+[colors]
+    [colors.primary]
+      # background= '#24283b'
+      background= '#0d0f18'
+      foreground= '#a9b1d6'
+
+    # Normal colors
+    [colors.normal]
+      black=   '#32344a'
+      red=     '#f7768e'
+      green=   '#9ece6a'
+      yellow=  '#e0af68'
+      blue=    '#7aa2f7'
+      magenta= '#ad8ee6'
+      cyan=    '#449dab'
+      white=   '#9699a8'
+
+    # Bright colors
+    [colors.bright]
+      black=   '#444b6a'
+      red=     '#ff7a93'
+      green=   '#b9f27c'
+      yellow=  '#ff9e64'
+      blue=    '#7da6ff'
+      magenta= '#bb9af7'
+      cyan=    '#0db9d7'
+      white=   '#acb0d0'
+
+
+# [shell]
+# program= "tmux"
