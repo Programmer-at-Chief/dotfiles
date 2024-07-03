@@ -199,6 +199,7 @@ map gf cd ~/Desktop/Forces/
 map gp cd ~/Desktop/Python/
 map gt cd ~/.local/share/Trash/files/
 map gl cd ~/Desktop/Cpp\ Programming/Leetcode
+map gS cd ~/BlackCTF/CSOC-Infosec/Week_2/Scripts/
 
 set drawbox
 set relativenumber

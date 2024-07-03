@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-MAX_DESKTOPS=20
+MAX_DESKTOPS=10
 
 WORKSPACES=$(seq -s '\n' 1 1 ${MAX_DESKTOPS})
 

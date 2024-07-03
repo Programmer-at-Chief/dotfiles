@@ -316,16 +316,16 @@ bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/power-profiles
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1:"
-set $ws2 "2:"
-set $ws3 "3:󱐡"
-set $ws4 "4:"
-set $ws5 "5:󰠥"
-set $ws6 "6:󰣇"
-set $ws7 "7:󱨑"
-set $ws8 "8:"
-set $ws9 "9:"
-set $ws10 "10:"
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
 
 # use workspaces on different displays:
 # where you have to replace VGA-0/HDMI-0 with the names for your displays
@@ -398,7 +398,7 @@ exec --no-startup-id dex --autostart --environment i3
 #exec --no-startup-id sh /usr/share/endeavouros/scripts/welcome --startdelay=3 
 
 # num lock activated
-#exec --no-startup-id numlockx on
+exec --no-startup-id numlockx on
 
 # configure multiple keyboard layouts and hotkey to switch (Alt+CAPSLOCK in this example)
 #exec --no-startup-id setxkbmap -layout 'us,sk' -variant altgr-intl,qwerty -option 'grp:alt_caps_toggle'
@@ -461,9 +461,6 @@ exec --no-startup-id /usr/bin/dunst
 # networkmanager-applet
 #exec --no-startup-id nm-applet
 
-# clipman-applet
-#exec --no-startup-id xfce4-clipman
-
 ##################
 # floating rules #
 ##################
@@ -479,7 +476,6 @@ for_window [class="Pavucontrol" instance="pavucontrol"] floating enable
 for_window [class="qt5ct" instance="qt5ct"] floating enable
 for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
 for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable
-for_window [class="Pamac-manager"] floating enable
 for_window [window_role="About"] floating enable
 
 # set border of floating window
@@ -614,8 +610,6 @@ bindsym $mod+Shift+c exec --no-startup-id rofi -modi "clipboard:greenclip print"
 # exec --no-startup-id clipse -listen                                                           
 # bindsym $mod+Shift+c exec --no-startup-id kitty -e "/bin/bash" -c "i3-msg 'floating enable' && clipse" 
 
-bindsym Mod4+Return exec --no-startup-id urxvt 
-bindsyn Mod4+$mod+Return exec --no-startup-id alacritty 
 exec --no-startup-id picom
 
 # Polybar
@@ -628,5 +622,9 @@ for_window [class="Tor Browser"] floating enable move position center resize set
 for_window [class="Tk"] floating enable
 
 
-# numlock on by default
-exec_always --no-startup-id numlockx on
+bindsym Mod4+Return exec --no-startup-id alacritty 
+
+# exec_always --no-startup-id numlockx on
+
+bindsym $mod+m exec --no-startup-id rofimoji
+
