@@ -1,0 +1,30 @@
+[Added Associations]
+application/pdf=mupdf.desktop;
+text/plain=vscodium.desktop;kitty.desktop;
+image/jpeg=org.nomacs.ImageLounge.desktop;feh.desktop;userapp-feh -F-B98PN2.desktop;
+image/png=org.nomacs.ImageLounge.desktop;xnviewmp.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.presentation=onlyoffice-desktopeditors.desktop;
+image/webp=org.nomacs.ImageLounge.desktop;
+audio/aac=mpv.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=onlyoffice-desktopeditors.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=onlyoffice-desktopeditors.desktop;
+application/xml=nvim.desktop;
+application/json=nvim.desktop;
+video/mp4=mpv.desktop;vlc.desktop;
+application/x-subrip=nvim.desktop;
+
+[Default Applications]
+application/pdf=mupdf.desktop
+image/jpeg=userapp-feh -F-B98PN2.desktop
+image/png=feh.desktop
+x-scheme-handler/discord-1038970224050962582=nuclear.desktop
+x-scheme-handler/discord-1176718791388975124=discord-1176718791388975124.desktop
+application/vnd.openxmlformats-officedocument.presentationml.presentation=onlyoffice-desktopeditors.desktop
+text/javascript=nvim.desktop
+text/plain=nvim.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=onlyoffice-desktopeditors.desktop
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=onlyoffice-desktopeditors.desktop
+application/xml=nvim.desktop
+application/json=nvim.desktop
+x-scheme-handler/discord-492484203435393035=discord-492484203435393035.desktop
+application/x-subrip=nvim.desktop

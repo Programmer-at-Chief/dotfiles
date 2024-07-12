@@ -1,0 +1,6 @@
+#!/bin/bash
+file=`printf "$1" | tr -d '.asm'`
+nasm -f elf "$file".asm
+ld -m elf_i386 "$file".o 
+rm "$file".o
+
