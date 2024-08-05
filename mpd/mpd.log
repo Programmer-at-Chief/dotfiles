@@ -1441,3 +1441,195 @@ May 18 22:14 : player: played "Baarishein (Anuv Jain ).opus"
 May 19 08:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
 May 19 10:42 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
 May 19 22:47 : player: played "Agar Tum Saath Ho.m4a"
+Jul 15 16:11 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jul 15 16:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 15 16:15 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 15 16:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 15 16:15 : player: played "Alag Aasmaan (Anuv Jain ).opus"
+Jul 15 16:56 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 15 16:56 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 15 16:56 : player: played "Gul (Anuv Jain ).opus"
+Jul 15 16:58 : player: played "Husn (Anuv Jain ).opus"
+Jul 16 23:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 16 23:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 17 15:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 17 15:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 17 16:05 : player: played "Husn (Anuv Jain ).opus"
+Jul 18 13:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 18 13:09 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 18 13:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 18 13:09 : player: played "Husn (Anuv Jain ).opus"
+Jul 18 13:12 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 18 13:12 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jul 18 13:13 : player: played "Gul (Anuv Jain ).opus"
+Jul 18 13:41 : player: played "Agar Tum Saath Ho.m4a"
+Jul 19 00:04 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jul 19 00:10 : output: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Jul 19 00:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 19 00:45 : player: played "Agar Tum Saath Ho.m4a"
+Jul 19 00:48 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 19 00:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 19 00:48 : player: played "Husn (Anuv Jain ).opus"
+Jul 19 12:42 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 19 13:47 : player: played "Maula (Anuv Jain ).opus"
+Jul 19 16:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 19 16:18 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 19 16:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 19 16:18 : player: played "Maula (Anuv Jain ).opus"
+Jul 19 16:23 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 19 16:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 19 16:23 : player: played "Riha (Anuv Jain ).opus"
+Jul 19 16:26 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 19 16:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 19 16:26 : player: played "Mishri (Anuv Jain ).opus"
+Jul 19 16:46 : output: Failed to play on "pulse audio" (pulse): suspended
+Jul 21 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 21 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 21 09:51 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 21 09:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 21 09:52 : player: played "Mishri (Anuv Jain ).opus"
+Jul 21 11:32 : output: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Jul 21 12:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 21 17:22 : output: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Jul 24 22:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 24 22:59 : output: Failed to play on "pulse audio" (pulse): suspended
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jul 24 22:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jul 24 22:59 : exception: Failed to set mixer for 'pulse audio'; disconnected

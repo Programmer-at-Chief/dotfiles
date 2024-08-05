@@ -116,7 +116,6 @@ alias ls="lsd"
 alias fuck="sl -Fa && clear"
 alias sex="fortune -as| cowsay -r | lolcat"
 alias devil="emacsclient -c -a 'emacs'"
-alias login="python ~/login.py 23124005 Aman1729!"
 alias lucifer="ssh lucifer@192.168.122.224"
 alias piped="pipes -r 0 -p 2"
 alias db="docker build --no-cache -t"
@@ -135,6 +134,7 @@ alias readqr="zbarimg -q --raw"
 # alias rm="trash-put"
 alias pince="sudo -E ~/BlackCTF/Programs/PINCE-x86_64.AppImage"
 alias search='cd `fzf --height=~70% --border=rounded --walker=dir -d2`'
+alias fd="fd -HIu"
 
 # location alias
 alias cpp="cd ~/Desktop/'Cpp Programming'"
@@ -259,5 +259,11 @@ function yy() {
 
 #afetch
 # fortune -as| cowsay -r | lolcat
+if [[ -f ~/.env ]] ; then
+  source ~/.env
+else
+  echo .env file not found at $HOME/
+fi
+
 colorscript random | tail -n +2
 

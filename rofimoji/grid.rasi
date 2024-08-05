@@ -24,5 +24,6 @@ element {
 element-text {
   vertical-align:   0.5;
   horizontal-align: 0.5;
-  font:            "FiraCode Nerd Font 28";
+//  font:            "FiraCode Nerd Font 28";
+  font:             "JetbrainsMono Nerd Font 28";
 }
