@@ -9,6 +9,7 @@ sort_sensitive = true
 sort_reverse   = false
 sort_dir_first = true
 linemode       = "size"
+# linemode      = "custom"
 show_hidden    = true 
 show_symlink   = true
 scrolloff      = 5
@@ -43,23 +44,23 @@ play = [
 	{ run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
 ]
 
-[open]
-rules = [
-	{ name = "*/", use = [ "edit", "open", "reveal" ] },
-
-	{ mime = "text/*",          use = [ "edit", "reveal" ] },
-	{ mime = "image/*",         use = [ "open", "reveal" ] },
-	{ mime = "{audio,video}/*", use = [ "play", "reveal" ] },
-	{ mime = "inode/x-empty",   use = [ "edit", "reveal" ] },
-
-	{ mime = "application/*zip", use = [ "extract", "reveal" ] },
-	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", use = [ "extract", "reveal" ] },
-
-	{ mime = "application/json", use = [ "edit", "reveal" ] },
-	{ mime = "*/javascript",     use = [ "edit", "reveal" ] },
-
-	{ mime = "*", use = [ "open", "reveal" ] },
-]
+# [open]
+# rules = [
+# 	{ name = "*/", use = [ "edit", "open", "reveal" ] },
+#
+# 	{ mime = "text/*",          use = [ "edit", "reveal" ] },
+# 	{ mime = "image/*",         use = [ "open", "reveal" ] },
+# 	{ mime = "{audio,video}/*", use = [ "play", "reveal" ] },
+# 	{ mime = "inode/x-empty",   use = [ "edit", "reveal" ] },
+#
+# 	{ mime = "application/*zip", use = [ "extract", "reveal" ] },
+# 	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", use = [ "extract", "reveal" ] },
+#
+# 	{ mime = "application/json", use = [ "edit", "reveal" ] },
+# 	{ mime = "*/javascript",     use = [ "edit", "reveal" ] },
+#
+# 	{ mime = "*", use = [ "open", "reveal" ] },
+# ]
 
 [tasks]
 micro_workers    = 10
@@ -69,45 +70,45 @@ image_alloc      = 536870912  # 512MB
 image_bound      = [ 0, 0 ]
 suppress_preload = false
 
-[plugin]
-prepend_previewers = [
-	# Archive previewer
-	{ mime = "application/*zip",            run = "ouch" },
-	{ mime = "application/x-tar",           run = "ouch" },
-	{ mime = "application/x-bzip2",         run = "ouch" },
-	{ mime = "application/x-7z-compressed", run = "ouch" },
-	{ mime = "application/x-rar",           run = "ouch" },
-	{ mime = "application/x-xz",            run = "ouch" },
-]
-preloaders = [
-	{ name = "*", cond = "!mime", run = "mime", multi = true, prio = "high" },
-	# Image
-	{ mime = "image/*", run = "image" },
-	# Video
-	{ mime = "video/*", run = "video" },
-	# PDF
-	{ mime = "application/pdf", run = "pdf" },
-]
-previewers = [
-	{ name = "*/", run = "folder", sync = true },
-	# Code
-	{ mime = "text/*", run = "code" },
-	{ mime = "*/{xml,javascript,x-wine-extension-ini}", run = "code" },
-	# JSON
-	{ mime = "application/json", run = "json" },
-	# Image
-	{ mime = "image/vnd.djvu", run = "noop" },
-	{ mime = "image/*",        run = "image" },
-	# Video
-	{ mime = "video/*", run = "video" },
-	# PDF
-	{ mime = "application/pdf", run = "pdf" },
-	# Archive
-	{ mime = "application/*zip", run = "archive" },
-	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", run = "archive" },
-	# Fallback
-	{ name = "*", run = "file" },
-]
+# [plugin]
+# prepend_previewers = [
+# 	# Archive previewer
+# 	{ mime = "application/*zip",            run = "ouch" },
+# 	{ mime = "application/x-tar",           run = "ouch" },
+# 	{ mime = "application/x-bzip2",         run = "ouch" },
+# 	{ mime = "application/x-7z-compressed", run = "ouch" },
+# 	{ mime = "application/x-rar",           run = "ouch" },
+# 	{ mime = "application/x-xz",            run = "ouch" },
+# ]
+# preloaders = [
+# 	{ name = "*", cond = "!mime", run = "mime", multi = true, prio = "high" },
+# 	# Image
+# 	{ mime = "image/*", run = "image" },
+# 	# Video
+# 	{ mime = "video/*", run = "video" },
+# 	# PDF
+# 	{ mime = "application/pdf", run = "pdf" },
+# ]
+# previewers = [
+# 	{ name = "*/", run = "folder", sync = true },
+# 	# Code
+# 	{ mime = "text/*", run = "code" },
+# 	{ mime = "*/{xml,javascript,x-wine-extension-ini}", run = "code" },
+# 	# JSON
+# 	{ mime = "application/json", run = "json" },
+# 	# Image
+# 	{ mime = "image/vnd.djvu", run = "noop" },
+# 	{ mime = "image/*",        run = "image" },
+# 	# Video
+# 	{ mime = "video/*", run = "video" },
+# 	# PDF
+# 	{ mime = "application/pdf", run = "pdf" },
+# 	# Archive
+# 	{ mime = "application/*zip", run = "archive" },
+# 	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", run = "archive" },
+# 	# Fallback
+# 	{ name = "*", run = "file" },
+# ]
 
 [input]
 # cd

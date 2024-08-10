@@ -1,5 +1,5 @@
 [Added Associations]
-application/pdf=mupdf.desktop;
+application/pdf=masterpdfeditor5.desktop;mupdf.desktop;
 text/plain=vscodium.desktop;kitty.desktop;
 image/jpeg=org.nomacs.ImageLounge.desktop;feh.desktop;userapp-feh -F-B98PN2.desktop;
 image/png=org.nomacs.ImageLounge.desktop;xnviewmp.desktop;
@@ -12,10 +12,16 @@ application/xml=nvim.desktop;
 application/json=nvim.desktop;
 video/mp4=mpv.desktop;vlc.desktop;
 application/x-subrip=nvim.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+text/html=firefox.desktop;
+application/x-msdownload=xarchiver.desktop;
+x-scheme-handler/tg=io.github.tdesktop_x64.TDesktop.desktop;
+x-scheme-handler/tonsite=io.github.tdesktop_x64.TDesktop.desktop;
 
 [Default Applications]
 application/pdf=mupdf.desktop
-image/jpeg=userapp-feh -F-B98PN2.desktop
+image/jpeg=feh.desktop
 image/png=feh.desktop
 x-scheme-handler/discord-1038970224050962582=nuclear.desktop
 x-scheme-handler/discord-1176718791388975124=discord-1176718791388975124.desktop
@@ -28,3 +34,18 @@ application/xml=nvim.desktop
 application/json=nvim.desktop
 x-scheme-handler/discord-492484203435393035=discord-492484203435393035.desktop
 application/x-subrip=nvim.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+text/html=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+application/x-msdownload=xarchiver.desktop
+x-scheme-handler/about=chromium.desktop
+x-scheme-handler/unknown=chromium.desktop
+x-scheme-handler/tg=io.github.tdesktop_x64.TDesktop.desktop
+x-scheme-handler/tonsite=io.github.tdesktop_x64.TDesktop.desktop

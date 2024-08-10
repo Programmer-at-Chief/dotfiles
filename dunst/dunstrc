@@ -1,0 +1,21 @@
+[global]
+  frame_color = "#89b4fa"
+  separator_color= frame
+  width = 400
+  height =300
+  font = JetbrainsMono Nerd Font 14
+  corner_radius = 2
+
+[urgency_low]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[urgency_normal]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[urgency_critical]
+background = "#9e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#fab387"
+timeout = 0

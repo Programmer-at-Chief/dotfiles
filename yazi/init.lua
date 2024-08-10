@@ -9,7 +9,21 @@ function Header:host()
 	return ui.Span(ya.user_name() .. "@" .. ya.host_name() .. ":"):fg("blue")
  end
 
-function Header:render(area)
+function Linemode:custom()
+  local year = os.date("%Y")
+  local time = (self._file.cha.modified or 0) // 1
+
+  if time > 0 and os.date("%Y", time) == year then
+    time = os.date("%b %d %H:%M", time)
+  else
+    time = time and os.date("%b %d  %Y", time) or ""
+  end
+
+  local size = self._file:size()
+  return ui.Line(string.format(" %s %s ", size and ya.readable_size(size):gsub(" ", "") or "-", time))
+end
+
+function Header:render()
 	self.area = area
 
 	local right = ui.Line { self:count(), self:tabs() }
@@ -109,3 +123,12 @@ require("yatline"):setup({
 		}
 	},
 })
+
+function Status:name()
+	local h = self._tab.current.hovered
+	if not h then
+		return ui.Line {}
+	end
+
+	return ui.Line(" " .. h.name)
+end

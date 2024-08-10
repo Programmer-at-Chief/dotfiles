@@ -1,9 +1,9 @@
-sw_volume: 52
+sw_volume: 62
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 4
-time: 102.752000
+state: play
+current: 17
+time: 1975.644000
 random: 1
 repeat: 0
 single: 0
@@ -12,15 +12,27 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Alag Aasmaan (Anuv Jain ).opus
-1:Baarishein (Anuv Jain ).opus
-2:Gul (Anuv Jain ).opus
-3:Husn (Anuv Jain ).opus
-4:Maula (Anuv Jain ).opus
-5:Mazaak (Anuv Jain ).opus
-6:Meri Baaton Mein Tu (Anuv Jain ).opus
-7:Mishri (Anuv Jain ).opus
-8:Riha (Anuv Jain ).opus
-9:Sawaar Loon.m4a
-10:Agar Tum Saath Ho.m4a
+0:Baarishein (Anuv Jain ).opus
+1:Gul (Anuv Jain ).opus
+2:Husn (Anuv Jain ).opus
+3:Maula (Anuv Jain ).opus
+4:Mazaak (Anuv Jain ).opus
+5:Meri Baaton Mein Tu (Anuv Jain ).opus
+6:Mishri (Anuv Jain ).opus
+7:Riha (Anuv Jain ).opus
+8:Sawaar Loon.m4a
+9:Agar Tum Saath Ho.m4a
+10:Sleep_music.opus
+11:Let Go - sapientdream.m4a
+12:4-HOUR STUDY WITH ME🌦️ ⧸ calm piano ⧸ A Rainy Day in Shinjuku, Tokyo ⧸ with countdown+alarm [DXT9dF-WK-I].opus
+13:nordic_home.opus
+14:4-HOUR STUDY WITH ME🌦️ ⧸ calm piano ⧸ A Rainy Day in Shinjuku, Tokyo ⧸ with countdown+alarm [DXT9dF-WK-I].opus
+15:Exam Study Music - 40Hz Gamma Binaural Beats, Brainwave Music for Improved Memory [qQzf-xzZO7M].opus
+16:Lofi study 🍃 Music that makes u more inspired to study & work - Chill beats ~ study ⧸ stress relief [FxJ3zPUU6Y4].opus
+17:nordic_home.opus
+18:Sleep_music.opus
+19:Sounds_of_Rain.opus
+20:Alag Aasmaan (Anuv Jain ).opus
+21:Vaaste - Dhvani Bhanushali, Nikhil D'Souza, Tanishk Bagchi.m4a
+22:Iktara - Amit Trivedi, Kavita Seth, Amitabh Bhattacharya.m4a
 playlist_end
