@@ -1,6 +1,7 @@
 #!/bin/python3
 
 import requests
+import time
 try:
     from selenium import webdriver
     from selenium.webdriver.firefox.service import Service
@@ -43,5 +44,6 @@ if (link!="0"):
 else:
     print("Already logged In")
 
+time.sleep(2)
 driver.quit()
 

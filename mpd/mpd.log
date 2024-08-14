@@ -3181,3 +3181,676 @@ Aug 10 00:22 : player: played "Riha (Anuv Jain ).opus"
 Aug 10 00:25 : ffmpeg/opus: Could not update timestamps for discarded samples.
 Aug 10 00:25 : player: played "Gul (Anuv Jain ).opus"
 Aug 10 02:04 : output: Failed to play on "pulse audio" (pulse): disconnected
+Aug 11 02:39 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 11 02:39 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 11 02:39 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Aug 11 02:39 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Aug 12 02:21 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 12 02:21 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 12 02:22 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 12 02:22 : ffmpeg/aac: channel element 1.0 is not allocated
+Aug 12 02:22 : ffmpeg/aac: channel element 1.0 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.1 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: invalid band type
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (50) exceeds limit (35).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.5 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: channel element 3.8 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: channel element 3.10 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.12 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: skip_data_stream_element: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (61) exceeds limit (49).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: decode_pce: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Operation not permitted
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (23) exceeds limit (7).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.5 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.5 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (30) exceeds limit (10).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.12 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: decode_pce: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Operation not permitted
+Aug 12 02:22 : ffmpeg/aac: channel element 3.6 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.4 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: decode_pce: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Operation not permitted
+Aug 12 02:22 : ffmpeg/aac: channel element 2.11 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: TYPE_FIL: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: decode_band_types: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (15) exceeds limit (14).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: decode_pce: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Operation not permitted
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: ms_present = 3 is reserved.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.15 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: decode_pce: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Operation not permitted
+Aug 12 02:22 : ffmpeg/aac: channel element 2.12 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (7) exceeds limit (3).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: decode_band_types: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: skip_data_stream_element: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.0 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.8 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: decode_pce: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Operation not permitted
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.5 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: decode_pce: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Operation not permitted
+Aug 12 02:22 : ffmpeg/aac: channel element 3.1 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.4 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.5 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.9 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.0 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.0 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (56) exceeds limit (49).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.7 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.7 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: invalid band type
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (24) exceeds limit (23).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.9 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (58) exceeds limit (49).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.7 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (30) exceeds limit (25).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: ms_present = 3 is reserved.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.8 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Gain control
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.9 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (15) exceeds limit (13).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.2 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.12 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.1 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (61) exceeds limit (45).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: invalid band type
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: channel element 3.12 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.4 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.10 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: TNS filter order 31 is greater than maximum 12.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: invalid band type
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.15 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.2 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.13 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: channel element 3.8 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.12 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.6 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (40) exceeds limit (28).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (56) exceeds limit (49).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (60) exceeds limit (49).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (22) exceeds limit (10).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (15) exceeds limit (14).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.13 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.9 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: invalid band type
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.1 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.7 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.12 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.12 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (59) exceeds limit (49).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: channel element 3.3 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (16) exceeds limit (13).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: invalid band type
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (5) exceeds limit (3).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (5) exceeds limit (4).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (3) exceeds limit (2).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.5 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (50) exceeds limit (49).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: channel element 2.1 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.4 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (44) exceeds limit (32).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.4 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (46) exceeds limit (33).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.9 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (50) exceeds limit (49).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.3 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (6) exceeds limit (4).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Scalefactor (-12) out of range.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (15) exceeds limit (14).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.11 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (13) exceeds limit (2).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: invalid band type
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.5 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (15) exceeds limit (12).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.13 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.4 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (5) exceeds limit (4).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.6 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.13 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (63) exceeds limit (49).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.4 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.14 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.0 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (46) exceeds limit (38).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.0 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: SBR was found before the first channel element.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.9 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (11) exceeds limit (7).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.11 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (23) exceeds limit (9).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.13 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.2 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.3 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.9 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (56) exceeds limit (31).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (5) exceeds limit (4).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: invalid band type
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (6) exceeds limit (3).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (7) exceeds limit (2).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (38) exceeds limit (32).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.4 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.9 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (43) exceeds limit (22).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.6 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.1 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.1 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: SBR was found before the first channel element.
+Aug 12 02:22 : ffmpeg/aac: channel element 3.8 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.13 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.9 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (16) exceeds limit (13).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.1 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (10) exceeds limit (9).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.3 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.13 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: channel element 3.15 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (60) exceeds limit (49).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.15 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.0 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: ms_present = 3 is reserved.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.6 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.11 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.7 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (17) exceeds limit (8).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.11 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.15 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: invalid band type
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (26) exceeds limit (7).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (7) exceeds limit (2).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (23) exceeds limit (5).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: invalid band type
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.11 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (21) exceeds limit (6).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.14 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (30) exceeds limit (6).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (5) exceeds limit (4).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.14 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (19) exceeds limit (14).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (52) exceeds limit (36).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.14 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Number of bands (4) exceeds limit (2).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (14) exceeds limit (13).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.15 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.3 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Too large remapped id
+Aug 12 02:22 : ffmpeg/aac:  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Aug 12 02:22 : ffmpeg/aac: If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Not yet implemented in FFmpeg, patches welcome
+Aug 12 02:22 : ffmpeg/aac: Number of scalefactor bands in group (62) exceeds limit (49).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 3.6 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Number of bands (27) exceeds limit (21).
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.0 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: Prediction is not allowed in AAC-LC.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Sample rate index in program config element does not match the sample rate index configured by the container.
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.3 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.13 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: channel element 2.13 is not allocated
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Reserved bit set.
+Aug 12 02:22 : ffmpeg/aac: invalid band type
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/aac: Input buffer exhausted before END element found
+Aug 12 02:22 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Aug 12 02:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 12 02:22 : player: played "Iktara - Amit Trivedi, Kavita Seth, Amitabh Bhattacharya.m4a"
+Aug 12 03:08 : client: [10] malformed command "Œ"
+Aug 14 03:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 14 03:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 14 03:49 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 14 03:49 : player: played "Agar Tum Saath Ho.m4a"
+Aug 14 15:24 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 14 15:29 : player: played "Agar Tum Saath Ho.m4a"
+Aug 14 15:30 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 14 15:30 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 14 15:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 14 15:56 : player: played "Let Go - sapientdream.m4a"
+Aug 14 15:56 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 14 15:56 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 14 15:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 14 15:59 : player: played "Let Go - sapientdream.m4a"
+Aug 14 16:02 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 14 16:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 14 16:03 : player: played "Alag Aasmaan (Anuv Jain ).opus"
+Aug 14 16:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 14 16:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 14 16:06 : player: played "Maula (Anuv Jain ).opus"
+Aug 14 16:08 : player: played "Meri Baaton Mein Tu (Anuv Jain ).opus"

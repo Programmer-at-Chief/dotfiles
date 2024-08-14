@@ -210,6 +210,8 @@ export PATH="$HOME/bin/:$HOME/.emacs.d/bin:$PATH:/home/aman/.local/bin:/home/ama
 # export DOCKER_HOST=unix:///run/user/1000/docker.sock
 export HISTSIZE=5000
 export HISTFILESIZE=5000
+export HISTCONTROL=ignorespace:erasedups
+export HISTIGNORE=yy:cd:exit:man:poweroff:bat:clear:gcc:nmcli:nmtui:run:gcpp:
 
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
