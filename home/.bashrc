@@ -135,6 +135,7 @@ alias readqr="zbarimg -q --raw"
 alias pince="sudo -E ~/BlackCTF/Programs/PINCE-x86_64.AppImage"
 alias search='cd `fzf --height=~70% --border=rounded --walker=dir -d2`'
 alias fd="fd -HIu"
+alias android="aft-mtp-mount ~/mnt"
 
 # location alias
 alias cpp="cd ~/Desktop/'Cpp Programming'"

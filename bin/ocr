@@ -1,0 +1,15 @@
+#!/bin/bash
+
+focusedwindow=$(xdotool getactivewindow)
+cd ~/Pictures
+flameshot gui -r -s > img.png
+tesseract img.png text
+rm img.png
+cat text.txt | xclip -selection clipboard
+rm text.txt
+
+# flameshot gui -g >/dev/null
+if [ "$focusedwindow" == "$(xdotool getactivewindow)" ]
+then
+	xdotool windowactivate $focusedwindow
+fi
