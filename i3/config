@@ -45,8 +45,8 @@
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-# font pango: Noto Sans Regular 10
-font pango: Roboto_Mono Regular 12
+font pango: Noto Sans Regular 12
+# font pango: Roboto_Mono Regular 12
 
 # set the mod key to the winkey:
 # set $mod Mod4
@@ -85,7 +85,7 @@ gaps top 35
 
 # show window title bars (not officially supported with i3gaps)
 #default_border normal
-default_border pixel 2
+default_border pixel 1
 
 # window title alignment
 #title_align center
@@ -285,7 +285,7 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id numlockx on
 exec --no-startup-id ~/.screenlayout/monitor.sh
-exec --no-startup-id sleep 1 && feh --bg-fill ~/.wallpapers/tron\ mountain.jpg
+exec --no-startup-id sleep 1 && feh --bg-fill ~/.wallpapers/samurai.png
 exec --no-startup-id greenclip daemon>/dev/null
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id xrdb -merge ~/.Xresources
@@ -331,6 +331,8 @@ exec --no-startup-id /usr/bin/dunst
 # set floating (nontiling) for apps needing it
 for_window [class="Yad" instance="yad"] floating enable
 for_window [class="Galculator" instance="galculator"] floating enable
+
+for_window [class="Qalculate-gtk" ] floating enable
 for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
 
 # set floating (nontiling) for special apps
@@ -342,6 +344,8 @@ for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enabl
 for_window [window_role="About"] floating enable
 for_window [class="Tor Browser"] floating enable move position center resize set 1000 974
 for_window [class="Tk"] floating enable
+for_window [class="Gpick"] floating enable move position center resize set 1000 974
+
 
 # set border of floating window
 # for_window [class="urxvt"] border pixel 1
@@ -369,11 +373,14 @@ set $darkgrey		#383c4a
 set $grey		#b0b5bd
 set $mediumgrey		#8b8b8b
 set $yellowbrown	#e1b700
+set $teal #29DDBA
+set $blue #048EE8
+set $transp #00000000
 
 # define colors for windows:
 #class		        	border		bground		text		indicator	child_border
-client.focused		    	$lightblue	$darkblue	$purple $mediumgrey	$mediumgrey
-client.unfocused	    	$mediumgrey $darkblue	$grey		$darkgrey	$darkgrey
+client.focused		    	$teal $teal $darkblue $blue $teal
+client.unfocused	    	$yellowbrown $darkblue	$grey		$darkgrey	$darkbluetrans
 client.focused_inactive		$darkblue	$darkblue	$grey		$black		$black
 client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 
@@ -390,6 +397,8 @@ bindsym $mod+t exec --no-startup-id rofi -show window -config ~/.config/rofi/rof
 bindsym $mod+Shift+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard \
 	# -config ~/.config/rofi/rofidmenu.rasi
 
-bindsym Mod4+c exec --no-startup-id ocr
+bindsym Mod4+c exec --no-startup-id ~/bin/ocr
+bindsym Mod4+z exec --no-startup-id ~/bin/zoom
+bindsym $mod+Mod4+Return exec --no-startup-id cool-retro-term
 
-
+# exec_always --no-startup-id xremap ~/.config/xremap/config.yml &> /dev/null

@@ -148,12 +148,13 @@ keymap = [
   { on = [ "g", "d" ],run = "cd ~/Desktop/"},
 	{ on = [ "g", "c" ],run = "cd ~/.config"},
 	{ on = [ "g", "D" ],run = "cd ~/Downloads"},
-  { on = [ "g", "+" ],run = "cd ~/Desktop/Cpp Programming/" },
+  { on = [ "g", "+" ],run = "cd ~/Desktop/Cpp Programming/"},
 	{ on = [ "g", "t" ],run = "cd ~/.local/share/Trash/files"},
   { on = [ "g", "C" ],run = "cd ~/Desktop/C Programming/" },
   { on = [ "g", "H" ],run = "cd /run/media/aman/"},
   { on = [ "g", "f" ],run = "cd ~/Desktop/Forces/"},
   { on = [ "g", "p" ],run = "cd ~/Desktop/Python/"},
+  { on = [ "g", "w" ],run = "cd ~/Desktop/Web/"},
 
 	# Help
 	{ on = [ "~" ], run = "help", desc = "Open help" },

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# focusedwindow=$(xdotool getactivewindow)
+cd ~/Pictures
+flameshot gui -r -s > ~/Pictures/img.png
+feh -FZ ~/Pictures/img.png
+rm ~/Pictures/img.png
+
+# flameshot gui -g >/dev/null
+if [ "$focusedwindow" == "$(xdotool getactivewindow)" ]
+then
+	xdotool windowactivate $focusedwindow
+fi
