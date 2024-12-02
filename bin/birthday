@@ -1,0 +1,68 @@
+#!/bin/python3
+
+import subprocess
+import sys
+
+def send_dunst_notification(message):
+   command=["/usr/bin/notify-send",
+            f"{message}"]
+   try:
+       subprocess.run(command)
+   except Exception as e:
+       print(f"Error sending notification: {e}")
+
+from datetime import datetime
+
+birth_array=[]
+with open('/home/aman/.local/share/birthday.txt') as f:
+    birth_array=f.readlines()
+
+# print(birth_array)
+message="Today is "
+first=True
+second=True
+last_name=""
+cur_date=datetime.today()
+
+for i in birth_array:
+    if (len(i.strip(' '))<2):
+        continue
+    name=i.split(' ')[0]
+    date=i.split(" ")[1].rstrip('\n')
+    date_object = datetime.strptime(date, "%d-%m")
+    if (date_object.month == cur_date.month and date_object.day == cur_date.day ):
+        if (first and second):
+            message+=(f"{name}")
+            first=False
+        elif (not first and second):
+            last_name=name
+            # message+=(f",{name}")
+            second=False
+        else:
+            # message+=(f"and {name}")
+            message+=(f",{last_name}")
+            last_name=name
+
+
+if (last_name!=""):
+    message+=f" and {last_name}'s birthday\nDate : {cur_date.day} {cur_date.strftime('%B')} {cur_date.year}"
+else:
+    message+=f"'s birthday\nDate : {cur_date.day} {cur_date.strftime('%B')} {cur_date.year}"
+
+if (first==False):
+    send_dunst_notification(message)
+
+try: 
+    if (sys.argv[1]=="add"):
+        with open("/home/aman/.local/share/birthday.txt","a") as f:
+            name=input("Enter name: ")
+            date=input("Enter DOB(DD-MM): ")
+            message=name+" "+date+"\n"
+
+            f.write(message)
+except: 
+    None
+
+
+
+# ' Happy birthday may you enjoy queenly experiences for the day and many

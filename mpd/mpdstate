@@ -1,9 +1,9 @@
-sw_volume: 80
+sw_volume: 54
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: play
-current: 0
-time: 555.508000
+state: pause
+current: 4
+time: 22.747000
 random: 1
 repeat: 1
 single: 0
@@ -19,4 +19,8 @@ playlist_begin
 4:Reborn: Hereditary - Colin Stetson.opus
 5:Sleep_music.opus
 6:Sounds_of_Rain.opus
+7:Meri Baaton Mein Tu (Anuv Jain ).opus
+8:Vaaste - Dhvani Bhanushali, Nikhil D'souza.opus
+9:Let Go - sapientdream.m4a
+10:MONACO - Bad Bunny.m4a
 playlist_end

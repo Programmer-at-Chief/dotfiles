@@ -1,0 +1,61 @@
+#!/bin/bash
+
+# i3-msg workspace 1 
+# sleep 0.2
+# kitty --session $HOME/.config/kitty/web_1.conf & disown
+#
+# i3-msg workspace 2 
+# sleep 0.2
+# kitty --session $HOME/.config/kitty/web_2.conf & disown
+#
+# i3-msg workspace 3 
+# sleep 0.2
+# zen-browser chatgpt.com localhost:5000 & disown
+
+# Switch to workspace 1 and wait for confirmation
+# i3-msg "workspace 1"
+# sleep 0.1  # Ensure the workspace switch happens
+# while [[ "$(wmctrl -d | grep '*' | awk '{print $NF}')" != "1" ]]; do sleep 0.1; done
+# kitty --session "$HOME/.config/kitty/web_1.conf" & disown
+#
+# # Switch to workspace 2 and wait for confirmation
+# i3-msg "workspace 2"
+# sleep 0.1
+# while [[ "$(wmctrl -d | grep '*' | awk '{print $NF}')" != "2" ]]; do sleep 0.1; done
+# kitty --session "$HOME/.config/kitty/web_2.conf" & disown
+#
+# # Switch to workspace 3 and wait for confirmation
+# i3-msg "workspace 4"
+# sleep 0.1
+# while [[ "$(wmctrl -d | grep '*' | awk '{print $NF}')" != "4" ]]; do sleep 0.1; done
+# zen-browser chatgpt.com localhost:5000 & disown
+
+# Function to wait until the window is visible on screen
+wait_for_window() {
+    app_name=$1
+    while ! wmctrl -l | grep -q "$app_name"; do
+        sleep 0.1  # Check every 100ms
+    done
+}
+
+# Function to ensure workspace switching works properly
+switch_workspace() {
+    i3-msg "workspace $1"
+    # Wait a moment for i3 to focus the workspace
+    sleep 0.2
+}
+
+# Switch to workspace 1, wait until it's focused, and launch the first program
+switch_workspace 1
+kitty --session "$HOME/.config/kitty/web_1.conf" & 
+wait_for_window "kitty"
+
+# Switch to workspace 2, wait until it's focused, and launch the second program
+switch_workspace 2
+kitty --session "$HOME/.config/kitty/web_2.conf" & 
+wait_for_window "kitty"
+
+# Switch to workspace 3, wait until it's focused, and launch the third program
+switch_workspace 3
+zen-browser chatgpt.com localhost:5000 & disown
+wait_for_window "zen-browser"

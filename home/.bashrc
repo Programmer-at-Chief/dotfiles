@@ -114,8 +114,8 @@ alias aafire="aafire -driver curses"
 alias gcpp="g++"
 alias ls="lsd"
 # alias fuck="sl -Fa && clear"
-# alias sex="fortune -as| cowsay -r | lolcat"
-alias fuck="curl -s https://evilinsult.com/generate_insult.php | cowsay -r | lolcat"
+alias sex="/usr/bin/sex | cowsay -r | lolcat"
+# alias fuck="curl -s https://evilinsult.com/generate_insult.php | cowsay -r | lolcat"
 alias devil="emacsclient -c -a 'emacs'"
 alias lucifer="ssh lucifer@192.168.122.124"
 alias piped="pipes -r 0 -p 2"
@@ -127,6 +127,7 @@ alias cacafire="DISPLAY= cacafire"
 alias light="brightnessctl --device='dell::kbd_backlight' set"
 alias caffeine="xset -dpms && xset s off"
 alias audio="yt-dlp --extract-audio --ignore-config"
+alias video="yt-dlp --ignore-config -f \"bestvideo[height<=1080][ext=mp4]\""
 alias yank="xclip -selection clipboard"
 alias put="xclip -o -selection clipboard"
 alias way="sudo mount --bind ~/Waydroid/ ~/.local/share/waydroid/data/media/0/Shared"
@@ -148,6 +149,7 @@ alias forces="cd ~/Desktop/Forces/"
 alias py="cd ~/Desktop/Python/"
 alias pico="cd ~/BlackCTF/PicoCTF/"
 alias ctf='cd ~/BlackCTF/ && cd `fzf --height=~70% --border=rounded --walker=dir -n1`'
+alias pokemon="pokemon-colorscripts -r"
 
 # Unused alias
 # alias bare="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
@@ -204,11 +206,12 @@ source /usr/share/fzf/completion.bash && source /usr/share/fzf/key-bindings.bash
 export FZF_DEFAULT_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null ||
 cat {} || tree -C {}) 2> /dev/null | head -200'"
 
+export TERMINAL="kitty"
 
 # Custom Environment 
 export EDITOR=/usr/bin/nvim
 export TERM=screen-256color
-export PATH="$HOME/bin/:$HOME/.emacs.d/bin:$PATH:/home/aman/.local/bin:/home/aman/.cargo/bin:/home/aman/go/bin/" # adding doom emacs to path
+export PATH="$HOME/bin/:$HOME/.emacs.d/bin:$PATH:/home/aman/.local/bin:/home/aman/.cargo/bin:/home/aman/go/bin/:/home/aman/BlackCTF/Programs/" # adding doom emacs to path
 # export DOCKER_HOST=unix:///run/user/1000/docker.sock
 export HISTSIZE=5000
 export HISTFILESIZE=5000
