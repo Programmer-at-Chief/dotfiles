@@ -1,0 +1,71 @@
+#!/bin/bash
+
+ARR=()
+ARR+=("Hidden Wiki")
+ARR+=("Onion Links")
+ARR+=("Ahmia")
+ARR+=("End Chan")
+ARR+=("Old Hidden Wiki")
+ARR+=("Another Hidden Wiki")
+ARR+=("Dread")
+ARR+=("Ableonion Chat")
+ARR+=("Uncensored Wiki")
+ARR+=("Blackhat Chat")
+ARR+=("Underdir")
+
+CHOICE=$(printf '%s\n' "${ARR[@]}" | rofi -dmenu -config ~/.config/rofi/config.rasi -p "TOR Menu")
+
+if [ "${CHOICE}" == "Hidden Wiki" ]; then
+  printf 'zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/wiki/index.php/Main_Page' | xclip -selection clipboard
+  exit 0
+fi
+
+if [ "${CHOICE}" == "Onion Links" ]; then
+  printf 'jaz45aabn5vkemy4jkg4mi4syheisqn2wn2n4fsuitpccdackjwxplad.onion/' | xclip -selection clipboard
+  exit 0
+fi
+
+if [ "${CHOICE}" == "Ahmia" ]; then
+  printf 'juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/' | xclip -selection clipboard
+  exit 0
+fi
+
+if [ "${CHOICE}" == "End Chan" ]; then
+  printf 'enxx3byspwsdo446jujc52ucy2pf5urdbhqw3kbsfhlfjwmbpj5smdad.onion/' | xclip -selection clipboard
+  exit 0
+fi
+
+if [ "${CHOICE}" == "Old Hidden Wiki" ]; then
+  printf '5wvugn3zqfbianszhldcqz2u7ulj3xex6i3ha3c5znpgdcnqzn24nnid.onion/' | xclip -selection clipboard
+  exit 0
+fi
+
+if [ "${CHOICE}" == "Another Hidden Wiki" ]; then
+  printf 'bj5hp4onm4tvpdb5rzf4zsbwoons67jnastvuxefe4s3v7kupjhgh6qd.onion/' | xclip -selection clipboard
+  exit 0
+fi
+
+if [ "${CHOICE}" == "Dread" ]; then
+  printf 'dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion/' | xclip -selection clipboard
+  exit 0
+fi
+
+if [ "${CHOICE}" == "Ableonion Chat" ]; then
+  printf 'notbumpz34bgbz4yfdigxvd6vzwtxc3zpt5imukgl6bvip2nikdmdaad.onion/' | xclip -selection clipboard
+  exit 0
+fi
+
+if [ "${CHOICE}" == "Uncensored Wiki" ]; then
+  printf 'xs66xa6wl76dwt6svonmkft7n2y4pkqqir23exoa5lw2o53mbmfxqpid.onion/Email.html' | xclip -selection clipboard
+  exit 0
+fi
+
+if [ "${CHOICE}" == "Blackhat Chat" ]; then
+  printf 'blkhatjxlrvc5aevqzz5t6kxldayog6jlx5h7glnu44euzongl4fh5ad.onion/' | xclip -selection clipboard
+  exit 0
+fi
+
+if [ "${CHOICE}" == "Underdir" ]; then
+  printf 'underdiriled6lvdfgiw4e5urfofuslnz7ewictzf76h4qb73fxbsxad.onion/' | xclip -selection clipboard
+  exit 0
+fi

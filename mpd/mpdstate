@@ -1,9 +1,9 @@
-sw_volume: 54
+sw_volume: 34
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 4
-time: 22.747000
+state: play
+current: 0
+time: 125.086000
 random: 1
 repeat: 1
 single: 0
@@ -23,4 +23,25 @@ playlist_begin
 8:Vaaste - Dhvani Bhanushali, Nikhil D'souza.opus
 9:Let Go - sapientdream.m4a
 10:MONACO - Bad Bunny.m4a
+11:AronChupa - Little Swing ft. Little Sis Nora ｜ OFFICIAL VIDEO [ipvEIZMMILA].opus
+12:Alag Aasmaan (Anuv Jain ).opus
+13:Baarishein (Anuv Jain ).opus
+14:Gul (Anuv Jain ).opus
+15:Husn (Anuv Jain ).opus
+16:Maula (Anuv Jain ).opus
+17:Mazaak (Anuv Jain ).opus
+18:Meri Baaton Mein Tu (Anuv Jain ).opus
+19:Mishri (Anuv Jain ).opus
+20:Riha (Anuv Jain ).opus
+21:Sawaar Loon.m4a
+22:Agar Tum Saath Ho.m4a
+23:Vaaste - Dhvani Bhanushali, Nikhil D'souza.opus
+24:Let Go - sapientdream.m4a
+25:Reborn: Hereditary - Colin Stetson.opus
+26:Bittersweet.opus
+27:Let him cook.m4a
+28:AronChupa - Little Swing ft. Little Sis Nora ｜ OFFICIAL VIDEO [ipvEIZMMILA].opus
+29:Losing Interest (Sped Up + Reverb) [AL7GiIZOoEE].opus
+30:Reborn: Hereditary - Colin Stetson.opus
+31:Reiner and Bertholdt reveal OST.opus
 playlist_end

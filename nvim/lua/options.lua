@@ -7,3 +7,16 @@ local o = vim.o
 -- o.relativenumber = 'true'
 vim.wo.relativenumber = true
 vim.opt.mouse = "" 
+
+-- Add custom filetype mappings for ejs
+vim.filetype.add({
+  extension = {
+    ejs = "html",  -- Treat ejs files as HTML for completions
+    -- ejs = 'javascript',
+    conf = 'cpp',
+    fsharp = 'cpp',
+    ypp = 'cpp',
+    lex = 'cpp'
+  },
+})
+

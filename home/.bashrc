@@ -138,18 +138,20 @@ alias pince="sudo -E ~/BlackCTF/Programs/PINCE-x86_64.AppImage"
 alias search='cd `fzf --height=~70% --border=rounded --walker=dir -d2`'
 alias fd="fd -HIu"
 alias android="aft-mtp-mount ~/droid"
+alias npm="pnpm"
+alias pokemon="pokemon-colorscripts -r"
+alias node="nodemon"
 
 # location alias
 alias cpp="cd ~/Desktop/'Cpp Programming'"
 alias jav="cd ~/Desktop/Java/"
-alias drive="cd /media/Data_Drive/"
+# alias drive="cd /media/Data_Drive/"
 # alias trash="cd ~/.local/share/Trash/files/"
 alias C="cd ~/Desktop/'C Programming'"
 alias forces="cd ~/Desktop/Forces/"
 alias py="cd ~/Desktop/Python/"
 alias pico="cd ~/BlackCTF/PicoCTF/"
 alias ctf='cd ~/BlackCTF/ && cd `fzf --height=~70% --border=rounded --walker=dir -n1`'
-alias pokemon="pokemon-colorscripts -r"
 
 # Unused alias
 # alias bare="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
@@ -274,3 +276,11 @@ fi
 
 colorscript random | tail -n +2
 
+
+# pnpm
+export PNPM_HOME="/home/aman/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
