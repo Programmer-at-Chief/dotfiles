@@ -1,11 +1,15 @@
 #!/bin/bash
-file="$1"
-g++ $file;
-if [ -f input.txt ]
-then
-  ./a.out < input.txt;
-else
-  echo input.txt does not exist !!
-  ./a.out
-fi
 
+file="$1"
+g++ $file
+
+if [ $? -eq 0 ]; then
+    if [ -f input.txt ]; then
+        ./a.out < input.txt
+    else
+        echo "input.txt does not exist!!"
+        ./a.out
+    fi
+else
+    echo "Compilation failed!"
+fi

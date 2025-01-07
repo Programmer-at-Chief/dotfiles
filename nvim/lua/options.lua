@@ -1,13 +1,12 @@
 require "nvchad.options"
 
--- add yours here!
-
 local o = vim.o
 -- o.cursorlineopt ='both' -- to enable cursorline!
 -- o.relativenumber = 'true'
 vim.wo.relativenumber = true
 vim.opt.mouse = "" 
-
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 -- Add custom filetype mappings for ejs
 vim.filetype.add({
   extension = {

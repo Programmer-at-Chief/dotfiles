@@ -141,6 +141,7 @@ alias android="aft-mtp-mount ~/droid"
 alias npm="pnpm"
 alias pokemon="pokemon-colorscripts -r"
 alias node="nodemon"
+alias mongodb="sudo systemctl start mongodb"
 
 # location alias
 alias cpp="cd ~/Desktop/'Cpp Programming'"

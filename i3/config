@@ -86,6 +86,7 @@ gaps top 35
 # show window title bars (not officially supported with i3gaps)
 #default_border normal
 default_border pixel 1
+for_window [floating_from="user"] border pixel 5
 
 # window title alignment
 #title_align center
@@ -309,7 +310,7 @@ exec --no-startup-id xset s 480 dpms 600 600 600
 # https://wiki.archlinux.org/title/Session_lock#xautolock
 #exec --no-startup-id xautolock -time 60 -locker "systemctl suspend"
 
-exec_always --no-startup-id /usr/bin/dunst
+exec_always --no-startup-id /usr/bin/dunst -conf ~/.config/dunst/dunstrc
 
 
 ###############

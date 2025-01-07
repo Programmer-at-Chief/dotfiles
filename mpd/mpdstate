@@ -1,47 +1,60 @@
-sw_volume: 34
+sw_volume: 32
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: play
-current: 0
-time: 125.086000
+state: pause
+current: 15
+time: 68.248000
 random: 1
 repeat: 1
 single: 0
 consume: 0
-crossfade: 5
+crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:4-HOUR 🌦️A Rainy Day in Shinjuku, Tokyo.opus
-1:Bittersweet.opus
-2:Lofi study 🍃.opus
-3:Nordic Home.opus
-4:Reborn: Hereditary - Colin Stetson.opus
-5:Sleep_music.opus
-6:Sounds_of_Rain.opus
-7:Meri Baaton Mein Tu (Anuv Jain ).opus
-8:Vaaste - Dhvani Bhanushali, Nikhil D'souza.opus
-9:Let Go - sapientdream.m4a
-10:MONACO - Bad Bunny.m4a
-11:AronChupa - Little Swing ft. Little Sis Nora ｜ OFFICIAL VIDEO [ipvEIZMMILA].opus
-12:Alag Aasmaan (Anuv Jain ).opus
-13:Baarishein (Anuv Jain ).opus
-14:Gul (Anuv Jain ).opus
-15:Husn (Anuv Jain ).opus
-16:Maula (Anuv Jain ).opus
-17:Mazaak (Anuv Jain ).opus
-18:Meri Baaton Mein Tu (Anuv Jain ).opus
-19:Mishri (Anuv Jain ).opus
-20:Riha (Anuv Jain ).opus
-21:Sawaar Loon.m4a
-22:Agar Tum Saath Ho.m4a
-23:Vaaste - Dhvani Bhanushali, Nikhil D'souza.opus
-24:Let Go - sapientdream.m4a
-25:Reborn: Hereditary - Colin Stetson.opus
-26:Bittersweet.opus
-27:Let him cook.m4a
-28:AronChupa - Little Swing ft. Little Sis Nora ｜ OFFICIAL VIDEO [ipvEIZMMILA].opus
-29:Losing Interest (Sped Up + Reverb) [AL7GiIZOoEE].opus
-30:Reborn: Hereditary - Colin Stetson.opus
-31:Reiner and Bertholdt reveal OST.opus
+0:🌦️A Rainy Day in Shinjuku, Tokyo.opus
+1:Alag Aasmaan (Anuv Jain ).opus
+2:AronChupa - Little Swing ft. Little Sis Nora ｜ OFFICIAL VIDEO [ipvEIZMMILA].opus
+3:Baarishein (Anuv Jain ).opus
+4:Bittersweet.opus
+5:Douma's Theme.wav
+6:Exam Study - 40Hz Gamma.opus
+7:Gul (Anuv Jain ).opus
+8:Husn (Anuv Jain ).opus
+9:Jo Tum Mere Ho (Anuv Jain).opus
+10:Jujalarim FUNK x Original Version [u844qyWCk9E].opus
+11:Let him cook.m4a
+12:Lofi study 🍃.opus
+13:Losing Interest (Sped Up + Reverb) [AL7GiIZOoEE].opus
+14:Maula (Anuv Jain ).opus
+15:Mazaak (Anuv Jain ).opus
+16:Meri Baaton Mein Tu (Anuv Jain ).opus
+17:Bittersweet.opus
+18:Lofi study 🍃.opus
+19:Nordic Home.opus
+20:Reborn: Hereditary - Colin Stetson.opus
+21:Sleep_music.opus
+22:Sounds_of_Rain.opus
+23:Exam Study - 40Hz Gamma.opus
+24:Alag Aasmaan (Anuv Jain ).opus
+25:Baarishein (Anuv Jain ).opus
+26:Gul (Anuv Jain ).opus
+27:Husn (Anuv Jain ).opus
+28:Maula (Anuv Jain ).opus
+29:Mazaak (Anuv Jain ).opus
+30:Meri Baaton Mein Tu (Anuv Jain ).opus
+31:Mishri (Anuv Jain ).opus
+32:Riha (Anuv Jain ).opus
+33:Sawaar Loon.m4a
+34:Agar Tum Saath Ho.m4a
+35:Vaaste - Dhvani Bhanushali, Nikhil D'souza.opus
+36:Let Go - sapientdream.m4a
+37:Reborn: Hereditary - Colin Stetson.opus
+38:Bittersweet.opus
+39:Let him cook.m4a
+40:AronChupa - Little Swing ft. Little Sis Nora ｜ OFFICIAL VIDEO [ipvEIZMMILA].opus
+41:Losing Interest (Sped Up + Reverb) [AL7GiIZOoEE].opus
+42:Reborn: Hereditary - Colin Stetson.opus
+43:Reiner and Bertholdt reveal OST.opus
+44:Jo Tum Mere Ho (Anuv Jain).opus
 playlist_end
