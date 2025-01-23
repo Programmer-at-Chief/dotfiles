@@ -141,7 +141,7 @@ bindsym Mod4+Return exec --no-startup-id alacritty --class floating
 bindsym $mod+m exec --no-startup-id rofimoji
 
 # Lock the system with a picture: 
-bindsym Mod4+l exec --no-startup-id i3lock -i  ~/.wallpapers/your\ name.png -p default|win -t
+bindsym Mod4+l exec --no-startup-id i3lock -i  ~/.wallpapers/pedo_linux.png -p default|win -t
 bindsym Mod4+s exec --no-startup-id systemctl suspend
 # lock by blurring the screen:
 # bindsym $mod+l exec --no-startup-id ~/.config/i3/scripts/blur-lock
@@ -286,7 +286,7 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id numlockx on
 exec --no-startup-id ~/.screenlayout/monitor.sh
-exec --no-startup-id sleep 1 && feh --bg-fill ~/.wallpapers/gamer.png
+exec --no-startup-id sleep 1 && feh --bg-fill ~/.wallpapers/post_apocalyptic_hacker.png
 exec --no-startup-id greenclip daemon>/dev/null
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id xrdb -merge ~/.Xresources

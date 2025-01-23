@@ -142,6 +142,7 @@ alias npm="pnpm"
 alias pokemon="pokemon-colorscripts -r"
 alias node="nodemon"
 alias mongodb="sudo systemctl start mongodb"
+alias pid="ps -o pid,ppid,cmd -p"
 
 # location alias
 alias cpp="cd ~/Desktop/'Cpp Programming'"
@@ -214,7 +215,7 @@ export TERMINAL="kitty"
 # Custom Environment 
 export EDITOR=/usr/bin/nvim
 export TERM=screen-256color
-export PATH="$HOME/bin/:$HOME/.emacs.d/bin:$PATH:/home/aman/.local/bin:/home/aman/.cargo/bin:/home/aman/go/bin/:/home/aman/BlackCTF/Programs/" # adding doom emacs to path
+export PATH="$PYENV_ROOT/bin:$HOME/bin/:$HOME/.emacs.d/bin:$PATH:/home/aman/.local/bin:/home/aman/.cargo/bin:/home/aman/go/bin/:/home/aman/BlackCTF/Programs/" # adding doom emacs to path
 # export DOCKER_HOST=unix:///run/user/1000/docker.sock
 export HISTSIZE=5000
 export HISTFILESIZE=5000
@@ -285,3 +286,21 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+
+color() {
+    case $1 in
+        red)     echo -e "\033[0;31m$2\033[0m" ;;
+        green)   echo -e "\033[0;32m$2\033[0m" ;;
+        yellow) echo -e "\033[0;33m$2\033[0m" ;;
+        blue)    echo -e "\033[0;34m$2\033[0m" ;;
+        magenta) echo -e "\033[0;35m$2\033[0m" ;;
+        cyan)    echo -e "\033[0;36m$2\033[0m" ;;
+        white)   echo -e "\033[0;37m$2\033[0m" ;;
+    esac
+}
+
+export PYENV_ROOT="$HOME/.pyenv"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+export CUDA_VISIBLE_DEVICES=""

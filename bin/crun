@@ -1,5 +1,17 @@
 #!/bin/bash
 
+color() {
+    case $1 in
+        red)     echo -e "\033[0;31m$2\033[0m" ;;
+        green)   echo -e "\033[0;32m$2\033[0m" ;;
+        yellow) echo -e "\033[0;33m$2\033[0m" ;;
+        blue)    echo -e "\033[0;34m$2\033[0m" ;;
+        magenta) echo -e "\033[0;35m$2\033[0m" ;;
+        cyan)    echo -e "\033[0;36m$2\033[0m" ;;
+        white)   echo -e "\033[0;37m$2\033[0m" ;;
+    esac
+}
+
 file="$1"
 g++ $file
 
@@ -7,9 +19,10 @@ if [ $? -eq 0 ]; then
     if [ -f input.txt ]; then
         ./a.out < input.txt
     else
-        echo "input.txt does not exist!!"
+        color red "input.txt does not exist!!"
+        echo ""
         ./a.out
     fi
 else
-    echo "Compilation failed!"
+    color red "Compilation failed!"
 fi
