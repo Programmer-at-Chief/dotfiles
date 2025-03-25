@@ -21,3 +21,8 @@ lspconfig.ts_ls.setup {
   on_init = on_init,
   capabilities = capabilities,
 }
+
+lspconfig.asm_lsp.setup {
+  command= "asm-lsp",
+  filetypes= {"asm", "s", "S"}
+}

@@ -231,7 +231,7 @@ return {
 
 		if cmd == "g" then
 			if direction == "g" then
-				ya.manager_emit("arrow", { -99999999 })
+				ya.manager_emit("arrow", { top })
 				ya.manager_emit("arrow", { lines - 1 })
 				render_clear()
 				return

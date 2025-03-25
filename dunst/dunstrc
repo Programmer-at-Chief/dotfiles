@@ -1,9 +1,8 @@
 [global]
-  origin = bottom-center 
+  origin = top-center 
   frame_color = "#89b4fa"
   separator_color= frame
   width = 400
-  height = 100
   font = JetbrainsMono Nerd Font 12
   progress_bar = true
   progress_bar_height = 10

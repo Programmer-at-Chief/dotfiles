@@ -1,60 +1,37 @@
-sw_volume: 49
+sw_volume: 88
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 2
-time: 37.501000
+current: 21
+time: 192.782000
 random: 1
-repeat: 1
+repeat: 0
 single: 0
 consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:🌦️A Rainy Day in Shinjuku, Tokyo.opus
-1:Alag Aasmaan (Anuv Jain ).opus
-2:AronChupa - Little Swing ft. Little Sis Nora ｜ OFFICIAL VIDEO [ipvEIZMMILA].opus
-3:Baarishein (Anuv Jain ).opus
-4:Bittersweet.opus
-5:Douma's Theme.wav
-6:Exam Study - 40Hz Gamma.opus
-7:Gul (Anuv Jain ).opus
-8:Husn (Anuv Jain ).opus
-9:Jo Tum Mere Ho (Anuv Jain).opus
-10:Jujalarim FUNK x Original Version [u844qyWCk9E].opus
-11:Let him cook.m4a
-12:Lofi study 🍃.opus
-13:Losing Interest (Sped Up + Reverb) [AL7GiIZOoEE].opus
-14:Maula (Anuv Jain ).opus
-15:Mazaak (Anuv Jain ).opus
-16:Meri Baaton Mein Tu (Anuv Jain ).opus
-17:Bittersweet.opus
-18:Lofi study 🍃.opus
-19:Nordic Home.opus
-20:Reborn: Hereditary - Colin Stetson.opus
-21:Sleep_music.opus
-22:Sounds_of_Rain.opus
-23:Exam Study - 40Hz Gamma.opus
-24:Alag Aasmaan (Anuv Jain ).opus
-25:Baarishein (Anuv Jain ).opus
-26:Gul (Anuv Jain ).opus
-27:Husn (Anuv Jain ).opus
-28:Maula (Anuv Jain ).opus
-29:Mazaak (Anuv Jain ).opus
-30:Meri Baaton Mein Tu (Anuv Jain ).opus
-31:Mishri (Anuv Jain ).opus
-32:Riha (Anuv Jain ).opus
-33:Sawaar Loon.m4a
-34:Agar Tum Saath Ho.m4a
-35:Vaaste - Dhvani Bhanushali, Nikhil D'souza.opus
-36:Let Go - sapientdream.m4a
-37:Reborn: Hereditary - Colin Stetson.opus
-38:Bittersweet.opus
-39:Let him cook.m4a
-40:AronChupa - Little Swing ft. Little Sis Nora ｜ OFFICIAL VIDEO [ipvEIZMMILA].opus
-41:Losing Interest (Sped Up + Reverb) [AL7GiIZOoEE].opus
-42:Reborn: Hereditary - Colin Stetson.opus
-43:Reiner and Bertholdt reveal OST.opus
-44:Jo Tum Mere Ho (Anuv Jain).opus
+0:Alag Aasmaan (Anuv Jain ).opus
+1:Baarishein (Anuv Jain ).opus
+2:Gul (Anuv Jain ).opus
+3:Husn (Anuv Jain ).opus
+4:Maula (Anuv Jain ).opus
+5:Mazaak (Anuv Jain ).opus
+6:Meri Baaton Mein Tu (Anuv Jain ).opus
+7:Mishri (Anuv Jain ).opus
+8:Riha (Anuv Jain ).opus
+9:Sawaar Loon.m4a
+10:Agar Tum Saath Ho.m4a
+11:Vaaste - Dhvani Bhanushali, Nikhil D'souza.opus
+12:Let Go - sapientdream.m4a
+13:Reborn: Hereditary - Colin Stetson.opus
+14:Bittersweet.opus
+15:Let him cook.m4a
+16:AronChupa - Little Swing ft. Little Sis Nora ｜ OFFICIAL VIDEO [ipvEIZMMILA].opus
+17:Losing Interest (Sped Up + Reverb) [AL7GiIZOoEE].opus
+18:Reborn: Hereditary - Colin Stetson.opus
+19:Reiner and Bertholdt reveal OST.opus
+20:Jo Tum Mere Ho (Anuv Jain).opus
+21:The_Hanging_Tree.opus
 playlist_end

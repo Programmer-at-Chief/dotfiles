@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Wifi credentials
+username="23124005"
+password="Aman2004!"
+
+# URL to the captive portal (replace with actual URL if different)
+URL="http://captive.apple.com"
+
+# Get the redirect link (simulating the part that gets the link in Python)
+link=$(curl -s "$URL" | grep -oP 'http[^"]+' | head -n 1)
+
+if [[ -z "$link" ]]; then
+    echo "Already logged in or no redirect URL found"
+else
+    echo "Redirecting to $link"
+    # Simulate the login form submission using curl
+    curl -s -X POST "$link" \
+        -d "ft_un=$username" \
+        -d "ft_pd=$password" \
+        -d "button=Submit" \
+        -c cookies.txt
+    
+    echo "Authenticated"
+fi

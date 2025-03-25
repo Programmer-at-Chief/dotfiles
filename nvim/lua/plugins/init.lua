@@ -53,7 +53,6 @@ return {
       require "configs.lspconfig"
     end,
   },
-
   {
     "williamboman/mason.nvim",
     opts = {
@@ -61,6 +60,12 @@ return {
         "lua-language-server", "stylua",
         "html-lsp", "css-lsp" , "prettier","pyright","cpplint","cpptools","tailwindcss-language-server"
       },
+    },
+  },
+  {
+    "williamboman/mason-lspconfig.nvim",
+    opts = {
+      ensure_installed = { "lua_ls", "rust_analyzer" },
     },
   },
   {

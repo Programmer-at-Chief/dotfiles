@@ -1,11 +1,13 @@
 #!/bin/python3
 
+from pyvirtualdisplay import Display
 import requests
 import time
 try:
     from selenium import webdriver
     from selenium.webdriver.firefox.service import Service
     from selenium.webdriver.common.by import By
+    from selenium.webdriver.firefox.options import Options
 except:
     print("Install selenium module")
     exit()
@@ -14,8 +16,12 @@ import os
 # firefox_driver_path= "/home/aman/Desktop/Python/Advanced/Selenium/geckodriver"
 firefox_driver_path="/usr/bin/geckodriver"
 try: 
+    display = Display(visible = 0,size=(1024,768))
+    display.start()
+    options = Options()
+    options.headless = True  
     service=Service(firefox_driver_path)
-    driver= webdriver.Firefox(service=service)
+    driver= webdriver.Firefox(service=service,options=options)
 except:
     print("Gecko Driver not installed!!")
     exit()
@@ -47,3 +53,4 @@ else:
 time.sleep(1)
 driver.quit()
 
+display.stop()

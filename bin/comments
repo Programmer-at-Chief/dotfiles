@@ -1,0 +1,17 @@
+#!/bin/bash
+file="$1"
+if [[ "$file" == *.c || "$file" == *.cpp ]];
+then
+  sed -e 's://.*::g' -e '/\/\*/,/\*\//d' "$file" | sed '/^$/N;/^\n$/D' > "${file%.*}_no_cap.${file##*.}"
+else 
+  if [[ $file == *.py ]]
+  then 
+    sed -e 's/#.*//g' -e '/\'\''.*\'\''/d' -e '/""".*"""/d' "$file" | sed '/^$/N;/^\n$/D' > "${file%.*}_no_cap.${file##*.}"
+  else
+    if [[ -x $file ]]
+    then
+      sed -e 's/#.*//g' "$file" | sed '/^$/N;/^\n$/D' > "${file%.*}_no_cap.${file##*.}"
+    fi
+  fi
+fi
+
