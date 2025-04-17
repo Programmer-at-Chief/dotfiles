@@ -1,26 +1,27 @@
-sw_volume: 88
+sw_volume: 36
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 21
-time: 192.782000
+state: play
+current: 5
+time: 53.094
 random: 1
 repeat: 0
 single: 0
 consume: 0
 crossfade: 0
-mixrampdb: 0.000000
-mixrampdelay: -1.000000
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: playlists/Songs.m3u
 playlist_begin
-0:Alag Aasmaan (Anuv Jain ).opus
-1:Baarishein (Anuv Jain ).opus
-2:Gul (Anuv Jain ).opus
-3:Husn (Anuv Jain ).opus
-4:Maula (Anuv Jain ).opus
-5:Mazaak (Anuv Jain ).opus
-6:Meri Baaton Mein Tu (Anuv Jain ).opus
-7:Mishri (Anuv Jain ).opus
-8:Riha (Anuv Jain ).opus
+0:Bittersweet.opus
+1:Lofi study 🍃.opus
+2:Nordic Home.opus
+3:Reborn: Hereditary - Colin Stetson.opus
+4:Sleep_music.opus
+5:Sounds_of_Rain.opus
+6:Exam Study - 40Hz Gamma.opus
+7:Reiner and Bertholdt reveal OST.opus
+8:Losing_Interest.opus
 9:Sawaar Loon.m4a
 10:Agar Tum Saath Ho.m4a
 11:Vaaste - Dhvani Bhanushali, Nikhil D'souza.opus
@@ -28,10 +29,9 @@ playlist_begin
 13:Reborn: Hereditary - Colin Stetson.opus
 14:Bittersweet.opus
 15:Let him cook.m4a
-16:AronChupa - Little Swing ft. Little Sis Nora ｜ OFFICIAL VIDEO [ipvEIZMMILA].opus
-17:Losing Interest (Sped Up + Reverb) [AL7GiIZOoEE].opus
-18:Reborn: Hereditary - Colin Stetson.opus
-19:Reiner and Bertholdt reveal OST.opus
-20:Jo Tum Mere Ho (Anuv Jain).opus
-21:The_Hanging_Tree.opus
+16:Reborn: Hereditary - Colin Stetson.opus
+17:Reiner and Bertholdt reveal OST.opus
+18:Jo Tum Mere Ho (Anuv Jain).opus
+19:The_Hanging_Tree.opus
+20:Are_You_Lonesome_Tonight.opus
 playlist_end

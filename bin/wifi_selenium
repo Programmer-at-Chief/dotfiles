@@ -1,0 +1,56 @@
+#!/bin/python3
+
+from pyvirtualdisplay import Display
+import requests
+import time
+try:
+    from selenium import webdriver
+    from selenium.webdriver.firefox.service import Service
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.firefox.options import Options
+except:
+    print("Install selenium module")
+    exit()
+import os
+
+# firefox_driver_path= "/home/aman/Desktop/Python/Advanced/Selenium/geckodriver"
+firefox_driver_path="/usr/bin/geckodriver"
+try: 
+    display = Display(visible = 0,size=(1024,768))
+    display.start()
+    options = Options()
+    options.headless = True  
+    service=Service(firefox_driver_path)
+    driver= webdriver.Firefox(service=service,options=options)
+except:
+    print("Gecko Driver not installed!!")
+    exit()
+
+username=os.getenv("Wifi_user")
+password=os.getenv("Wifi_pass")
+
+# driver=webdriver.Firefox()
+data=requests.get("http://captive.apple.com")
+
+for i in (data.text).split('"'):
+    if "http" in i:
+        link=i
+        break
+    else:
+        link="0"
+# link=(i for i in (data.text).split('"'): (if "http" in i))
+
+if (link!="0"):
+    driver.get(link)
+
+    user_field=driver.find_element(By.ID,"ft_un").send_keys(username)
+    pass_field=driver.find_element(By.ID,"ft_pd").send_keys(password)
+    button=driver.find_element(By.CSS_SELECTOR,"input[type='submit']").click()
+    print("Authenticated")
+else:
+    print("Already logged In")
+
+time.sleep(1)
+driver.quit()
+
+display.stop()

@@ -1077,8 +1077,8 @@ function M:fetch(job)
 		if file.cha.len == 0 then
 			mime = "inode/empty"
 		else
-			mime = merged_files[(file.url:name() or ""):lower()]
-			mime = mime or merged_exts[(file.url:ext() or ""):lower()]
+			mime = merged_files[(file.url.name or ""):lower()]
+			mime = mime or merged_exts[(file.url.ext or ""):lower()]
 		end
 
 		if mime then

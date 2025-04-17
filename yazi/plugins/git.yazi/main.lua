@@ -54,7 +54,7 @@ local function bubble_up(changed)
 			while url and url ~= empty do
 				local s = tostring(url)
 				new[s] = (new[s] or 0) > v and new[s] or v
-				url = url:parent()
+				url = url.parent
 			end
 		end
 	end
@@ -138,7 +138,7 @@ local function setup(st, opts)
 
 	Linemode:children_add(function(self)
 		local url = self._file.url
-		local dir = st.dirs[tostring(url:parent())]
+		local dir = st.dirs[tostring(url.parent)]
 		local change
 		if dir then
 			change = dir == "" and 3 or st.repos[dir][tostring(url):sub(#dir + 2)]
@@ -155,7 +155,7 @@ local function setup(st, opts)
 end
 
 local function fetch(_, job)
-	local cwd = job.files[1].url:parent()
+	local cwd = job.files[1].url.parent
 	local repo = root(cwd)
 	if not repo then
 		remove(tostring(cwd))

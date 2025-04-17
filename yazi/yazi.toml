@@ -88,7 +88,7 @@ suppress_preload = false
 # 	{ mime = "application/pdf", run = "pdf" },
 # ]
 previewers = [
-	{ name = "*/", run = "folder", sync = true },
+	{ name = "*/", run = "folder"},
 	# Code
 	{ mime = "text/*", run = "code" },
 	{ mime = "*/{xml,javascript,x-wine-extension-ini,srt}", run = "code" },

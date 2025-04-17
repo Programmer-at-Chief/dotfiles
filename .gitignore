@@ -1,4 +1,5 @@
 # ~/dotfiles/bin/BurpSuiteCommunity
 # ~/dotfiles/bin/ghidraRun
 # ~/dotfiles/bin/eDEX-UI
-dotfiles/mpd/mpdstate
+mpd/mpdstate
+bin/panties

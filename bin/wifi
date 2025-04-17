@@ -1,56 +1,40 @@
-#!/bin/python3
+#!/home/aman/.pyenv/shims/python3
 
-from pyvirtualdisplay import Display
+from playwright.sync_api import sync_playwright
 import requests
-import time
-try:
-    from selenium import webdriver
-    from selenium.webdriver.firefox.service import Service
-    from selenium.webdriver.common.by import By
-    from selenium.webdriver.firefox.options import Options
-except:
-    print("Install selenium module")
-    exit()
 import os
 
-# firefox_driver_path= "/home/aman/Desktop/Python/Advanced/Selenium/geckodriver"
-firefox_driver_path="/usr/bin/geckodriver"
-try: 
-    display = Display(visible = 0,size=(1024,768))
-    display.start()
-    options = Options()
-    options.headless = True  
-    service=Service(firefox_driver_path)
-    driver= webdriver.Firefox(service=service,options=options)
-except:
-    print("Gecko Driver not installed!!")
-    exit()
+def main():
+    username = os.getenv("Wifi_user")
+    password = os.getenv("Wifi_pass")
 
-username=os.getenv("Wifi_user")
-password=os.getenv("Wifi_pass")
+    # Check the captive portal
+    data = requests.get("http://captive.apple.com")
+    link = "0"
 
-# driver=webdriver.Firefox()
-data=requests.get("http://captive.apple.com")
+    for i in data.text.split('"'):
+        if "http" in i:
+            link = i
+            break
 
-for i in (data.text).split('"'):
-    if "http" in i:
-        link=i
-        break
+    if link != "0":
+        # print(f"Redirecting to: {link}")
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            context = browser.new_context()
+            page = context.new_page()
+
+            page.goto(link)
+
+            # Fill in the credentials and submit the form
+            page.fill('input[id="ft_un"]', username)
+            page.fill('input[id="ft_pd"]', password)
+            page.click('input[type="submit"]')
+
+            print("Authenticated")
+
+            browser.close()
     else:
-        link="0"
-# link=(i for i in (data.text).split('"'): (if "http" in i))
+        print("Already logged in")
 
-if (link!="0"):
-    driver.get(link)
-
-    user_field=driver.find_element(By.ID,"ft_un").send_keys(username)
-    pass_field=driver.find_element(By.ID,"ft_pd").send_keys(password)
-    button=driver.find_element(By.CSS_SELECTOR,"input[type='submit']").click()
-    print("Authenticated")
-else:
-    print("Already logged In")
-
-time.sleep(1)
-driver.quit()
-
-display.stop()
+main()
