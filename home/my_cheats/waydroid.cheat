@@ -1,0 +1,7 @@
+% waydroid
+
+# Start waydroid from menu, weston from terminal and type in weston terminal 
+waydroid show-full-ui
+
+# stop waydroid
+waydroid session stop

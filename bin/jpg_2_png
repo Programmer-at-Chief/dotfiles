@@ -7,7 +7,8 @@ if [[ ! -d "$directory" ]]; then
   exit 1
 fi
 
-find "$directory" -type f -name "*.jpg|*.webp" | while IFS= read -r file; do
-  magick convert "$file" "${file%.jpg}.png"
+find "$directory" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.webp" \) | while IFS= read -r file; do
+  png_file="${file%.*}.png"
+  magick convert "$file" "$png_file"
   rm "$file"
 done

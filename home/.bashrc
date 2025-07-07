@@ -99,7 +99,7 @@ alias la="lsd -al"
 alias v="nvim"
 alias sv="sudoedit"
 alias tmux="tmux -u"
-alias btop="btop --utf-force"
+# alias btop="btop --utf-force"
 alias vdiff="nvim -d"
 alias du="du -hsc"
 alias sql="mariadb -u aman -p "
@@ -143,6 +143,8 @@ alias pokemon="pokemon-colorscripts -r"
 alias node="nodemon"
 alias mongodb="sudo systemctl start mongodb"
 alias pid="ps -o pid,ppid,cmd -p"
+alias monkey="docker run --publish 5000:5000 themythologist/monkeytype:frontend-latest"
+alias pnpx="pnpm dlx"
 
 # location alias
 alias cpp="cd ~/Desktop/'Cpp Programming'"
@@ -215,12 +217,14 @@ export TERMINAL="kitty"
 # Custom Environment 
 export EDITOR=/usr/bin/nvim
 export TERM=screen-256color
-export PATH="$PYENV_ROOT/bin:$HOME/bin/:$HOME/.emacs.d/bin:$PATH:/home/aman/.local/bin:/home/aman/.cargo/bin:/home/aman/go/bin/:/home/aman/BlackCTF/Programs/" # adding doom emacs to path
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
+export PATH="$JAVA_HOME/bin:$PYENV_ROOT/bin:$HOME/bin/:$HOME/.emacs.d/bin:$PATH:/home/aman/.local/bin:/home/aman/.cargo/bin:/home/aman/go/bin/:/home/aman/BlackCTF/Programs/" # adding doom emacs to path
 # export DOCKER_HOST=unix:///run/user/1000/docker.sock
 export HISTSIZE=5000
 export HISTFILESIZE=5000
 export HISTCONTROL=ignorespace:erasedups
 export HISTIGNORE=yy:cd:exit:man:poweroff:bat:clear:gcc:nmcli:nmtui:run:gcpp:
+export NEXT_TELEMETRY_DISABLED=1
 
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
@@ -277,6 +281,7 @@ else
 fi
 
 colorscript random | tail -n +2
+# panties | cowsay -r | lolcat
 
 
 # pnpm
@@ -304,3 +309,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 export CUDA_VISIBLE_DEVICES=""
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)

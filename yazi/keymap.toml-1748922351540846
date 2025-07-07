@@ -2,7 +2,7 @@
 # If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
 "$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
 
-[mgr]
+[manager]
 
 keymap = [
 	{ on = [ "<Esc>" ], run = "escape",             desc = "Exit visual mode, clear selected, or cancel search" },
@@ -156,7 +156,6 @@ keymap = [
   { on = [ "g", "f" ],run = "cd ~/Desktop/Forces/"},
   { on = [ "g", "p" ],run = "cd ~/Desktop/Python/"},
   { on = [ "g", "w" ],run = "cd ~/Desktop/Web/"},
-  { on = [ "g", "j" ],run = "cd ~/Desktop/Java/"},
 
 	# Help
 	{ on = [ "~" ], run = "help", desc = "Open help" },
@@ -318,15 +317,15 @@ keymap = [
 	{ on = [ "/" ], run = "filter", desc = "Apply a filter for the help items" },
 ]
 
-[[mgr.prepend_keymap]]
+[[manager.prepend_keymap]]
 on   = "l"
 run  = "plugin  smart-enter"
 desc = "Enter the child directory, or open the file"
 
-[[mgr.prepend_keymap]]
+[[manager.prepend_keymap]]
 on  = "K"
 run = "plugin  parent-arrow --args=-1"
 
-[[mgr.prepend_keymap]]
+[[manager.prepend_keymap]]
 on  = "J"
 run = "plugin  parent-arrow --args=1"

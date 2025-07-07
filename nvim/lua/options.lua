@@ -7,6 +7,9 @@ vim.wo.relativenumber = true
 vim.opt.mouse = "" 
 vim.opt.foldmethod = "manual"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.bo.shiftwidth = 2    -- Indentation width
+vim.bo.tabstop = 2       -- Tab width
+vim.bo.expandtab = true  -- Use spaces instead of tabs
 -- Add custom filetype mappings for ejs
 vim.filetype.add({
   extension = {
@@ -30,3 +33,4 @@ vim.api.nvim_create_autocmd({"BufWinEnter"}, {
   desc = "load view (folds), when opening file",
   command = "silent! loadview"
 })
+
