@@ -9,22 +9,27 @@ def main():
     password = os.getenv("Wifi_pass")
 
     # Check the captive portal
-    data = requests.get("http://captive.apple.com")
-    link = "0"
+    try:
+        data = requests.get("http://captive.apple.com")
+    except Exception as e:
+            print("Unable to reach captive.apple.com");
+            print(e)
+    
+    redirect_link = None 
 
     for i in data.text.split('"'):
         if "http" in i:
-            link = i
+            redirect_link= i
             break
 
-    if link != "0":
+    if redirect_link:
         # print(f"Redirecting to: {link}")
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             context = browser.new_context()
             page = context.new_page()
 
-            page.goto(link)
+            page.goto(redirect_link)
 
             # Fill in the credentials and submit the form
             page.fill('input[id="ft_un"]', username)

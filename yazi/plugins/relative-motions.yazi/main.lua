@@ -35,7 +35,7 @@ local SHOW_NUMBERS_RELATIVE_ABSOLUTE = 2
 -----------------------------------------------
 
 local render_motion_setup = ya.sync(function(_)
-	ya.render()
+	ui.render()
 
 	Status.motion = function() return ui.Span("") end
 
@@ -55,7 +55,7 @@ local render_motion_setup = ya.sync(function(_)
 end)
 
 local render_motion = ya.sync(function(_, motion_num, motion_cmd)
-	ya.render()
+	ui.render()
 
 	Status.motion = function(self)
 		if not motion_num then
@@ -81,7 +81,7 @@ local render_motion = ya.sync(function(_, motion_num, motion_cmd)
 end)
 
 local render_numbers = ya.sync(function(_, mode)
-	ya.render()
+	ui.render()
 
 	Entity.number = function(_, index, file, hovered)
 		local idx

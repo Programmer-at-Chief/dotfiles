@@ -44,3 +44,29 @@ vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
   pattern = "*.html",
   command = "set filetype=html",
 })
+
+-- vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+--   pattern = { "*.jsx",".js" },
+--   callback = function()
+--     vim.bo.filetype = "javascriptreact"
+--   end,
+-- })
+--
+-- vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+--   pattern = { "*.tsx",'.ts' },
+--   callback = function()
+--     vim.bo.filetype = "typescriptreact"
+--   end,
+-- })
+
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+  pattern = "*.js",
+  callback = function()
+    -- local nextjs = vim.fn.globpath(vim.fn.getcwd(), "next.config.js")
+    -- if nextjs ~= "" then
+      vim.bo.filetype = "javascriptreact"
+    -- end
+  end,
+})
+
+pcall(require("telescope").load_extension, "flutter")

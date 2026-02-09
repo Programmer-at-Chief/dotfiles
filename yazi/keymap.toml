@@ -157,6 +157,7 @@ keymap = [
   { on = [ "g", "p" ],run = "cd ~/Desktop/Python/"},
   { on = [ "g", "w" ],run = "cd ~/Desktop/Web/"},
   { on = [ "g", "j" ],run = "cd ~/Desktop/Java/"},
+  { on = [ "g", "F" ],run = "cd ~/Desktop/Flutter/"},
 
 	# Help
 	{ on = [ "~" ], run = "help", desc = "Open help" },

@@ -30,3 +30,36 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
     require("configs.jdtls")()
   end,
 })
+
+-- vim.diagnostic.config({
+--   virtual_text = {
+--     spacing = 4,
+--     severity = nil,
+--     format = function(diagnostic)
+--       -- Truncate long lines or customize here
+--       return diagnostic.message
+--     end,
+--   },
+--   float = {
+--     wrap = true,
+--     border = "rounded",
+--     source = "always",
+--     focusable = true,
+--   },
+--   update_in_insert = false,
+--   underline = true,
+--   signs = true,
+-- })
+
+vim.api.nvim_create_autocmd("CursorHold", {
+  callback = function()
+    vim.diagnostic.open_float(nil, {
+      focusable = false,
+      close_events = { "BufLeave", "CursorMoved", "InsertEnter", "FocusLost" },
+      border = "rounded",
+      source = "always",
+      prefix = "",
+      scope = "cursor",
+    })
+  end,
+})

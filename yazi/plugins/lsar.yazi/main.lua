@@ -1,7 +1,10 @@
+--- @since 25.5.31
+
 local M = {}
 
 function M:peek(job)
-	local child, err = Command("lsar"):arg(tostring(job.file.url)):stdout(Command.PIPED):spawn()
+	-- TODO: remove "or job.file.url"
+	local child, err = Command("lsar"):arg(tostring(job.file.path or job.file.url)):stdout(Command.PIPED):spawn()
 	if not child then
 		return ya.err("spawn `lsar` command failed: " .. err)
 	end
@@ -30,9 +33,9 @@ function M:peek(job)
 
 	child:start_kill()
 	if job.skip > 0 and i < job.skip + limit then
-		ya.manager_emit("peek", { math.max(0, i - limit), only_if = job.file.url, upper_bound = true })
+		ya.emit("peek", { math.max(0, i - limit), only_if = job.file.url, upper_bound = true })
 	else
-		ya.preview_widgets(job, { ui.Text(lines):area(job.area) })
+		ya.preview_widget(job, ui.Text(lines):area(job.area))
 	end
 end
 

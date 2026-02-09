@@ -114,7 +114,7 @@ alias aafire="aafire -driver curses"
 alias gcpp="g++"
 alias ls="lsd"
 # alias fuck="sl -Fa && clear"
-alias sex="/usr/bin/sex | cowsay -r | lolcat"
+alias sex="$HOME/bin/panties | cowsay -r | lolcat"
 # alias fuck="curl -s https://evilinsult.com/generate_insult.php | cowsay -r | lolcat"
 alias devil="emacsclient -c -a 'emacs'"
 alias lucifer="ssh lucifer@192.168.122.124"
@@ -145,6 +145,8 @@ alias mongodb="sudo systemctl start mongodb"
 alias pid="ps -o pid,ppid,cmd -p"
 alias monkey="docker run --publish 5000:5000 themythologist/monkeytype:frontend-latest"
 alias pnpx="pnpm dlx"
+alias telegram='nchat -d ~/.config/nchat-telegram'
+alias whatsapp='nchat -d ~/.config/nchat-whatsapp'
 
 # location alias
 alias cpp="cd ~/Desktop/'Cpp Programming'"
@@ -225,6 +227,15 @@ export HISTFILESIZE=5000
 export HISTCONTROL=ignorespace:erasedups
 export HISTIGNORE=yy:cd:exit:man:poweroff:bat:clear:gcc:nmcli:nmtui:run:gcpp:
 export NEXT_TELEMETRY_DISABLED=1
+export QT_QPA_PLATFORMTHEME=qt6ct
+
+export ANDROID=$HOME/Android
+export PATH=$ANDROID/cmdline-tools/latest:$PATH
+export PATH=$ANDROID/cmdline-tools/latest/bin:$PATH
+export PATH=$ANDROID/platform-tools:$PATH
+# Android SDK
+export ANDROID_SDK=$HOME/ANDROID
+export PATH=$ANDROID_SDK:$PATH
 
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
@@ -313,3 +324,9 @@ export CUDA_VISIBLE_DEVICES=""
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+
+
+hotspot() {
+  sudo create_ap wlp0s20f3 enp1s0 "$HOTSPOT_SSID" "$HOTSPOT" \
+    --no-virt --hidden --isolate-clients --ieee80211ac
+}

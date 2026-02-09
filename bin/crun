@@ -13,7 +13,7 @@ color() {
 }
 
 file="$1"
-g++ $file
+g++ -std=c++23 $file
 
 if [ $? -eq 0 ]; then
     if [ -f input.txt ]; then
