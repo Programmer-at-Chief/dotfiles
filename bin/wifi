@@ -16,6 +16,9 @@ def main():
             print(e)
     
     redirect_link = None 
+    if (data == None):
+        print("Not Connected")
+        exit()
 
     for i in data.text.split('"'):
         if "http" in i:

@@ -103,6 +103,7 @@ alias tmux="tmux -u"
 alias vdiff="nvim -d"
 alias du="du -hsc"
 alias sql="mariadb -u aman -p "
+alias sqle="usql mysql://aman:Aman2004@localhost/test"
 alias icat="kitty +kitten icat"
 alias p="python3"
 alias bluetooth="sudo systemctl start bluetooth"
@@ -111,7 +112,7 @@ alias syncthing="sudo systemctl start syncthing@aman"
 alias stop-syncthing="sudo systemctl stop syncthing@aman"
 alias speedtest="speedtest-cli"
 alias aafire="aafire -driver curses"
-alias gcpp="g++"
+alias gcpp="g++ -std=c++23"
 alias ls="lsd"
 # alias fuck="sl -Fa && clear"
 alias sex="$HOME/bin/panties | cowsay -r | lolcat"
@@ -134,29 +135,23 @@ alias way="sudo mount --bind ~/Waydroid/ ~/.local/share/waydroid/data/media/0/Sh
 alias qr="qrencode -o qr.png"
 alias readqr="zbarimg -q --raw"
 # alias rm="trash-put"
-alias pince="sudo -E ~/BlackCTF/Programs/PINCE-x86_64.AppImage"
 alias search='cd `fzf --height=~70% --border=rounded --walker=dir -d2`'
 alias fd="fd -HIu"
 alias android="aft-mtp-mount ~/droid"
 alias npm="pnpm"
 alias pokemon="pokemon-colorscripts -r"
 alias node="nodemon"
-alias mongodb="sudo systemctl start mongodb"
 alias pid="ps -o pid,ppid,cmd -p"
 alias monkey="docker run --publish 5000:5000 themythologist/monkeytype:frontend-latest"
 alias pnpx="pnpm dlx"
 alias telegram='nchat -d ~/.config/nchat-telegram'
 alias whatsapp='nchat -d ~/.config/nchat-whatsapp'
+alias speedtest='cloudflare-speed-cli'
 
 # location alias
-alias cpp="cd ~/Desktop/'Cpp Programming'"
-alias jav="cd ~/Desktop/Java/"
 # alias drive="cd /media/Data_Drive/"
 # alias trash="cd ~/.local/share/Trash/files/"
-alias C="cd ~/Desktop/'C Programming'"
 alias forces="cd ~/Desktop/Forces/"
-alias py="cd ~/Desktop/Python/"
-alias pico="cd ~/BlackCTF/PicoCTF/"
 alias ctf='cd ~/BlackCTF/ && cd `fzf --height=~70% --border=rounded --walker=dir -n1`'
 
 # Unused alias

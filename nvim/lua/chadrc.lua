@@ -11,4 +11,8 @@ M.ui = {
 	-- },
 }
 
+require("luasnip.loaders.from_lua").load({
+  paths = "~/.config/nvim/lua/snippets",
+})
+
 return M

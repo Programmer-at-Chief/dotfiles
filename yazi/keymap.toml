@@ -1,6 +1,6 @@
 # A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
 # If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
-"$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
+schema = "https://yazi-rs.github.io/schemas/keymap.json"
 
 [mgr]
 
@@ -78,8 +78,8 @@ keymap = [
 	{ on = [ ";" ],         run = "shell --interactive",                      desc = "Run a shell command" },
 	{ on = [ ":" ],         run = "shell --block --interactive",              desc = "Run a shell command (block the UI until the command finishes)" },
 	{ on = [ "." ],         run = "hidden toggle",              desc = "Toggle the visibility of hidden files" },
-	{ on = [ "s" ],         run = "search fd",                  desc = "Search files by name using fd" },
-	{ on = [ "S" ],         run = "search rg",                  desc = "Search files by content using ripgrep" },
+	{ on = [ "s" ],         run = "search --via=fd",                  desc = "Search files by name using fd" },
+	{ on = [ "S" ],         run = "search --via=rg",                  desc = "Search files by content using ripgrep" },
 	{ on = [ "<C-s>" ],     run = "search none",                desc = "Cancel the ongoing search" },
 	{ on = [ "z" ],         run = "plugin zoxide",              desc = "Jump to a directory using zoxide" },
 	{ on = [ "Z" ],         run = "plugin fzf",                 desc = "Jump to a directory, or reveal a file using fzf" },
@@ -149,9 +149,9 @@ keymap = [
   { on = [ "g", "d" ],run = "cd ~/Desktop/"},
 	{ on = [ "g", "c" ],run = "cd ~/.config"},
 	{ on = [ "g", "D" ],run = "cd ~/Downloads"},
-  { on = [ "g", "+" ],run = "cd ~/Desktop/'Cpp Programming'/"},
+  { on = [ "g", "+" ],run = "cd ~/Desktop/'Cpp'/"},
 	{ on = [ "g", "t" ],run = "cd ~/.local/share/Trash/files"},
-  { on = [ "g", "C" ],run = "cd ~/Desktop/'C Programming'/" },
+  { on = [ "g", "C" ],run = "cd ~/Desktop/'C'/" },
   { on = [ "g", "H" ],run = "cd /run/media/aman/"},
   { on = [ "g", "f" ],run = "cd ~/Desktop/Forces/"},
   { on = [ "g", "p" ],run = "cd ~/Desktop/Python/"},

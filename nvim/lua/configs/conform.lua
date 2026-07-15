@@ -7,6 +7,7 @@ local options = {
     typescript = { "prettier" },
     json = { "prettier" },
     yaml = { "prettier" },
+    python = { "black" },
   },
 
   format_on_save = {

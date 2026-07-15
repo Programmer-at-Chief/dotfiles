@@ -1,55 +1,53 @@
--- EXAMPLE 
 local on_attach = require("nvchad.configs.lspconfig").on_attach
 local on_init = require("nvchad.configs.lspconfig").on_init
 local capabilities = require("nvchad.configs.lspconfig").capabilities
 
-local lspconfig = require "lspconfig"
-local servers = { "html", "cssls","pyright","clangd", "tailwindcss","ts_ls","emmet_ls"}
-
--- lsps with default config
-for _, lsp in ipairs(servers) do
-  lspconfig[lsp].setup {
-    on_attach = on_attach,
-    on_init = on_init,
-    capabilities = capabilities,
-  }
-end
-
-lspconfig.asm_lsp.setup {
-  cmd = { "asm-lsp" },
-  filetypes = { "asm", "s", "S" },
+-- shared defaults for all LSPs
+vim.lsp.config("*", {
   on_attach = on_attach,
   on_init = on_init,
   capabilities = capabilities,
+})
+
+-- optional: tweak specific servers before enabling them
+vim.lsp.config("asm_lsp", {
+  cmd = { "asm-lsp" },
+  filetypes = { "asm", "s", "S" },
+})
+
+vim.lsp.config("sqls", {
+  cmd = { "sqls" },
+  init_options = {
+    connections = {
+      {
+        driver = "mysql",
+        dataSourceName = "aman:Aman2004@/test",
+      },
+    },
+  },
+})
+-- enable servers
+local servers = {
+  "html",
+  "cssls",
+  "pyright",
+  "clangd",
+  "tailwindcss",
+  "ts_ls",
+  "emmet_ls",
+  "asm_lsp",
+  "sqls"
 }
 
+vim.lsp.enable(servers)
 
-vim.api.nvim_create_autocmd({ "FileType" }, {
+-- Java/JDTLS special handling stays separate
+vim.api.nvim_create_autocmd("FileType", {
   pattern = "java",
   callback = function()
     require("configs.jdtls")()
   end,
 })
-
--- vim.diagnostic.config({
---   virtual_text = {
---     spacing = 4,
---     severity = nil,
---     format = function(diagnostic)
---       -- Truncate long lines or customize here
---       return diagnostic.message
---     end,
---   },
---   float = {
---     wrap = true,
---     border = "rounded",
---     source = "always",
---     focusable = true,
---   },
---   update_in_insert = false,
---   underline = true,
---   signs = true,
--- })
 
 vim.api.nvim_create_autocmd("CursorHold", {
   callback = function()
