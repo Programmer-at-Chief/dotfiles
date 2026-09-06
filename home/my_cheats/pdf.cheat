@@ -1,0 +1,6 @@
+% pdf
+
+# Compress pdf
+# Change the dPDFSETTINGS to screen for more compression
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -o output.pdf input.pdf 
+

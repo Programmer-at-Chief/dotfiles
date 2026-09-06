@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+    echo "Error: First argument is required"
+    exit 1
+fi
+
+# input_str="$1"
+
+if [ "$1" == "c" ]; then
+  if [ "$2" ]; then 
+    cp ~/Templates/file.c "$(pwd)"/"$2".c
+  else
+    cp ~/Templates/file.c "$(pwd)"/new_file.c
+  fi
+elif [ "$1" == "+" ]; then
+  if [ "$2" ]; then
+    cp ~/Templates/file.cpp "$(pwd)"/"$2".cpp
+  else
+    cp ~/Templates/file.cpp "$(pwd)"/new_file.cpp
+  fi
+else
+  echo "Error: Unsupported file format"
+fi

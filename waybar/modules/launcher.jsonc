@@ -1,0 +1,8 @@
+{
+  "custom/launcher":{
+    "format": "󰣇 ",
+    "tooltip": false,
+    "on-click": "fuzzel",
+    "on-click-right": "killall rofi"
+  },
+}

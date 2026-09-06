@@ -1,0 +1,5 @@
+action = copy
+files = [emojis, math]
+skin-tone = moderate
+hidden-descriptions = True
+selector-args = "-theme ~/.config/rofimoji/grid.rasi"

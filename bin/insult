@@ -1,0 +1,17 @@
+#!/bin/bash
+
+filename="/home/aman/.local/share/insults.txt"
+insult=$( curl -s https://evilinsult.com/generate_insult.php | recode html..ascii )
+
+check_line_in_file() {
+    if grep -q "^$insult$" "$filename"; then
+        true
+    else
+      echo $insult >> $filename
+    fi
+  }
+
+
+check_line_in_file
+echo $insult | cowsay -r | lolcat
+

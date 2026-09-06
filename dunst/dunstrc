@@ -1,0 +1,30 @@
+[global]
+  origin = top-center 
+  frame_color = "#89b4fa"
+  separator_color= frame
+  width = 400
+  font = JetbrainsMono Nerd Font 12
+  progress_bar = true
+  progress_bar_height = 10
+  progress_bar_frame_width = 1
+  progress_bar_min_width = 150
+  progress_bar_max_width = 300
+  icon_corner_radius = 0
+  corner_radius = 2
+  stack_duplicates = true
+  icon_theme = "Sweet-Rainbow, candy-icons"
+  icon_position = left
+
+[urgency_low]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[urgency_normal]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[urgency_critical]
+background = "#9e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#fab387"
+timeout = 0

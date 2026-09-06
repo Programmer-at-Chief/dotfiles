@@ -1,0 +1,137 @@
+#!/bin/bash
+
+color() {
+  case $1 in
+  red) echo -e "\033[0;31m$2\033[0m" ;;
+  green) echo -e "\033[0;32m$2\033[0m" ;;
+  yellow) echo -e "\033[0;33m$2\033[0m" ;;
+  blue) echo -e "\033[0;34m$2\033[0m" ;;
+  magenta) echo -e "\033[0;35m$2\033[0m" ;;
+  cyan) echo -e "\033[0;36m$2\033[0m" ;;
+  white) echo -e "\033[0;37m$2\033[0m" ;;
+  esac
+}
+
+if [[ $# -lt 1 || $# -gt 2 ]]; then
+  echo "Usage: $0 <source_file> [input_file]"
+  exit 1
+fi
+
+file="$1"
+input_file="${2:-}"
+
+if [[ $file == *.cpp ]]; then
+  echo "----------------------------------------"
+  g++ -std=c++23 "$file"
+
+  if [ $? -eq 0 ]; then
+    color green "Compiled Successfully !"
+    if [ -f "$input_file" ]; then
+      ./a.out <"$input_file"
+    else
+      ./a.out
+    fi
+  else
+    color red "Compilation failed!"
+  fi
+
+  echo "----------------------------------------"
+
+fi
+
+if [[ $file == *.c ]]; then
+  echo "----------------------------------------"
+  gcc "$file"
+
+  if [ $? -eq 0 ]; then
+    color green "Compiled Successfully !"
+    if [ -f "$input_file" ]; then
+      ./a.out <"$input_file"
+    else
+      ./a.out
+    fi
+  else
+    color red "Compilation failed!"
+  fi
+
+  echo "----------------------------------------"
+
+fi
+
+if [[ "$file" == *.java ]]; then
+  echo "----------------------------------------"
+  class_name="${file%.java}"
+
+  javac "$file"
+
+  if [ $? -eq 0 ]; then
+    color green "Compiled Successfully !"
+    if [[ -f "$input_file" ]]; then
+      java "$class_name" <"$input_file"
+    else
+      java "$class_name"
+    fi
+  else
+    color red "Compilation failed!"
+  fi
+  echo "----------------------------------------"
+fi
+
+if [[ $file == *.js ]]; then
+  echo "----------------------------------------"
+  node "$file"
+
+  if [ $? -eq 0 ]; then
+    color green "Executed Successfully !"
+  else
+    color red "Execution failed!"
+  fi
+
+  echo "----------------------------------------"
+fi
+
+if [[ "$file" == *.kt ]]; then
+  echo "----------------------------------------"
+  BASE_NAME=$(basename "$file" .kt)
+  JAR_FILE="${BASE_NAME}.jar"
+
+  if ! kotlinc "$file" -include-runtime -d "$JAR_FILE"; then
+    echo
+    color red "Compilation failed!"
+    exit 1
+  fi
+  color green "Compiled Successfully !"
+
+  java -jar "$JAR_FILE"
+  echo "----------------------------------------"
+fi
+
+if [[ "$file" == *.asm ]]; then
+  echo "----------------------------------------"
+  afile="${file%.asm}"
+
+  if nasm -f elf "$afile.asm" && ld -m elf_i386 "$afile.o"; then
+    "./$afile"
+    rm "$afile.o"
+  else
+    color red "Compilation failed!"
+  fi
+
+  echo "----------------------------------------"
+fi
+
+if [[ "$file" == *.py ]]; then
+  echo "----------------------------------------"
+  if [[ -f "$input_file" ]]; then
+    /usr/bin/python3 "$file" <"$input_file"
+  else
+    /usr/bin/python3 "$file"
+  fi
+
+  if [[ $? -eq 0 ]]; then
+    color green "Executed Successfully!"
+  else
+    color red "Execution failed!"
+  fi
+  echo "----------------------------------------"
+fi

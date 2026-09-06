@@ -1,0 +1,4 @@
+% psql - Postgre SQL Tool
+
+# start psql with root user
+sudo psql -U postgres

@@ -1,0 +1,4 @@
+% gdb
+
+# execute from within gdb
+tui new-layout example {-horizontal asm 1 regs 1} 2 status 0 cmd 1
